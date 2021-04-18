@@ -1,11 +1,46 @@
 site_name: Matura Zusammenfassung
 nav:
     - Home: index.md
-    - About: about.md
-theme: readthedocs
+    - Mathematik:
+      - Stoffplan: mathe/mathematik.md
+    - Physik:
+      - Stoffplan: physik/physik.md
+    - AM:
+      - Stoffplan: am/am.md
+    - Geographie:
+      - Stoffplan: gg/geographie.md
+extra_css:
+  - stylesheets/extra.css
+theme:
+  name: material
+  palette:
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: sick-dark
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    # Light mode
+    - deep orange: "(prefers-color-scheme: light)"
+      scheme: sick-light
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - header.autohide
+    
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
+  - toc:
+      toc_depth: 6
 extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6

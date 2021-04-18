@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# Überblick
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Sinn dieser Seite ist die Erstellung der Zusammenfassungen, damit auf diese geordnet, online und ohne Verschwendung von Papier :) zugegriffen werden kann, für die folgenden Fächer:
 
-## Commands
+* [Mathe](mathe/mathematik.md)
+* [Physik](physik/physik.md)
+* [AM](am/am.md)
+* [Geographie](gg/geographie.md)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Wenn jemand etwas zum korrigieren, hinzufügen oder Zusammenfassungen für andere Fächer hat, dann soll sie/er mir das doch bitte schreiben.
