@@ -22,10 +22,29 @@ nav:
         - Integralrechnung I: mathe/analysis/int1.md
         - Differentialrechnung II: mathe/analysis/diff2.md
         - Integrations-Methoden: mathe/analysis/intMeth.md
+        - Gewöhnliche Differentialgleichungen: mathe/analysis/gewDiff.md
     - Physik:
       - Stoffplan: physik/physik.md
+      - Mechanik: physik/mechanik.md
+      - Kreisbewegung: physik/kreisb.md
+      - Hydrostatik/Aeorpstatik: physik/hydro-aeors.md
+      - Wärme: physik/wärme.md
+      - Elektrizität: physik/elek.md
+      - Magnetismus: physik/mag.md
+      - Kernphysik: physik/kernp.md
+      - Schwingungen und Wellen, Akustik: physik/s-w-akustik.md
+      - Spezielle Relativitätstheorie: physik/spRel.md
+      - Allgemeine Relativitätstheorie: physik/allRel.md
+      - Quantenphysik: physik/quantenp.md
+      - Physik mit Differential- und Integralrechnung: physik/diffint.md
     - AM:
       - Stoffplan: am/am.md
+      - Beurteilende Statistik: am/beurtS.md
+      - Lineare Abbildungen: am/linAb.md
+      - Affinitäten: am/aff.md
+      - Erstes Rechnen mit Matrizen: am/erstMat.md
+      - Nichtgeometrische Anwendungen von Matrizen: am/ngmMat.md
+      - Parameterfunktionen: am/paramF.md
     - Geographie:
       - Stoffplan: gg/geographie.md
 extra_css:
