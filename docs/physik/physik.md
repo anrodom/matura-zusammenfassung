@@ -3,7 +3,7 @@ Folgende Themengebiete sind Stoff:
 
 - [Mechanik](mechanik.md)
 - [Kreisbewegung](kreisb.md)
-- [Hydrostatik/Aeorpstatik](hydro-aeors.md)
+- [Hydrostatik/Aeorostatik](hydro-aeors.md)
 - [Wärme](wärme.md)
 - [Elektrizität](elek.md)
 - [Magnetismus](mag.md)
