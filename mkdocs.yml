@@ -81,16 +81,12 @@ theme:
 plugins:
   - search
   - git-revision-date-localized
+  - pandoc:
+      combined: true
+      pandoc_extra_args: --resource-path=.:docs:img
   - print-site:
       path_to_pdf: '..\..\pandoc\combined.pdf'
       add_to_navigation: false
-  - pandoc:
-      combined: true
-      pandoc_extra_args: --resource-path=.;docs;img
-#  - print-site:
-#      add_to_navigation: true
-#      add_cover_page: true
-#      add_table_of_contents: false
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
