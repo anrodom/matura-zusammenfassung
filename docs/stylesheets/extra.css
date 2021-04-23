@@ -74,3 +74,18 @@
     --md-footer-bg-color: rgba(0,0,0,0.87);
     --md-footer-bg-color--dark: rgba(0,0,0,0.32);
 }
+
+body[data-md-color-scheme="sick-dark"] img {
+  mix-blend-mode: screen;
+  filter: invert(1)
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pdf-download-btn {
+  display: none !important;
+}

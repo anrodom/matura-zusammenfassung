@@ -1,4 +1,5 @@
 site_name: Matura Zusammenfassung
+# site_url: https://matura-zusammenfassung.readthedocs.io/de/latest/
 nav:
     - Home: index.md
     - Mathematik:
@@ -68,18 +69,40 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
+  icon:
+    repo: fontawesome/brands/github
+  custom_dir: docs/overrides
+
   features:
     - navigation.tabs
     - navigation.top
     - toc.integrate
     - header.autohide
-
+plugins:
+  - search
+  - git-revision-date-localized
+  - print-site:
+      path_to_pdf: '..\..\pandoc\combined.pdf'
+      add_to_navigation: false
+  - pandoc:
+      combined: true
+      pandoc_extra_args: --resource-path=.;docs;img
+#  - print-site:
+#      add_to_navigation: true
+#      add_cover_page: true
+#      add_table_of_contents: false
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - toc:
       toc_depth: 6
+  - def_list
 extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+repo_url: https://github.com/anrodom/matura-zusammenfassung
+repo_name: GitHub | anrodom
+edit_uri: "blob/main/docs/"
+# extra:
+#  disqus: maturazusammenfassung
