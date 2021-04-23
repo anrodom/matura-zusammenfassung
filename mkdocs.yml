@@ -83,10 +83,11 @@ plugins:
   - git-revision-date-localized
   - pandoc:
       combined: true
+      combined_output_path: pdf/combined.pdf
       #pandoc_extra_args: --resource-path=.:docs:img
-      pandoc_extra_args: --version
+      #pandoc_extra_args: --version
   - print-site:
-      path_to_pdf: '..\..\pandoc\combined.pdf'
+      path_to_pdf: '..\..\pdf\combined.pdf'
       add_to_navigation: false
 markdown_extensions:
   - pymdownx.arithmatex:
