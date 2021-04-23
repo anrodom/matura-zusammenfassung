@@ -87,7 +87,7 @@ plugins:
       #pandoc_extra_args: --resource-path=.:docs:img
       #pandoc_extra_args: --version
   - print-site:
-      path_to_pdf: '..\..\pdf\combined.pdf'
+      path_to_pdf: 'pdf\combined.pdf'
       add_to_navigation: false
 markdown_extensions:
   - pymdownx.arithmatex:
