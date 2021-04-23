@@ -84,8 +84,7 @@ plugins:
   - pandoc:
       combined: true
       combined_output_path: pdf/combined.pdf
-      #pandoc_extra_args: --resource-path=.:docs:img
-      pandoc_extra_args: --version
+      pandoc_extra_args: --resource-path=.:docs:img
   - print-site:
       path_to_pdf: 'pdf\combined.pdf'
       add_to_navigation: false
