@@ -1,5 +1,0 @@
-pymdown-extensions==8.1.1
-mkdocs-material==7.1.1
-mkdocs-git-revision-date-localized-plugin==0.9
-mkdocs-pandoc-plugin==1.0.0
-mkdocs-print-site-plugin==1.1.0
