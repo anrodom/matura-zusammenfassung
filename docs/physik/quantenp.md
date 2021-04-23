@@ -29,7 +29,7 @@ Quantenobjekte:
 
 ### Licht-Mikroskop
 
-![Licht-Mikroskop](../img/qm1.png) 
+<!--![Licht-Mikroskop](../img/qm1.png)-->
 
 $$\sin(\varphi)=\frac{\lambda}{d}$$
 
