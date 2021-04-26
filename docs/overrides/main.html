@@ -18,9 +18,11 @@
       var list_str = `{{nav}}`;
       list_str = list_str.replace(/Page\(/g, '\[').replace(/Section\(/g, '\[').replace(/\)/g, '\]').replace(/title=/g, "").replace(/url=/g, "").replace(/\'/g, "\"").replace(/\n/g, ",").replace(/\],\s*\[/g, "\]\, \[")
       var list = JSON.parse("[" + list_str + "]")
+      console.log(list)
       var url = '{{page.url}}'
       var urls = url.split("/")
       urls.pop()
+      console.log(urls)
       var pdf_url = ""
       var pdf_text = ""
       for (var u=1; u<=urls.length; u++) {
@@ -28,19 +30,23 @@
         for (i=0; i < u; i++) {
           path += (urls[i] + "/")
         }
+        console.log(path)
         for (var e = 0; e < list.length; e++) {
           if (list[e].length > 1) {
             if (list[e][1] == path){
               pdf_text = list[e][0]
               pdf_url = path + pdf_text + ".pdf"
+              console.log("Equal")
               break;
             } else if (list[e][1].includes(path)) {
               pdf_text = list[e-1]
               pdf_url = path + pdf_text + ".pdf"
+              console.log("Part of")
               break;
             }
           }
         }
+        console.log(pdf_url)
         var text = '<a href="/de/latest' + pdf_url + '">' + pdf_text + '</a>'
         document.getElementById("pdf").innerHTML += text
       }
