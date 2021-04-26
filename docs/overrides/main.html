@@ -5,7 +5,7 @@
     <div class="md-content__button dropdown">
      <a class="md-content__button md-icon dropdown__button">{% include ".icons/material/pdf-box.svg" %}</a>
      <div class="dropdown-content" id="pdf">
-       <a href="/Main.pdf">Main</a>
+       <a href="/de/latest/Main.pdf">{{nav.homepage.url}}</a>
      </div>
     </div>
 
@@ -41,7 +41,7 @@
             }
           }
         }
-        var text = '<a href="' + pdf_url + '">' + pdf_text + '</a>'
+        var text = '<a href="/de/latest' + pdf_url + '">' + pdf_text + '</a>'
         document.getElementById("pdf").innerHTML += text
       }
 
