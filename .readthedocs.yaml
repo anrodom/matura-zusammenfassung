@@ -4,4 +4,4 @@ conda:
   environment: docs/environment.yaml
 
 mkdocs:
-  configuration: mkdocs.yaml
+  configuration: mkdocs.yml

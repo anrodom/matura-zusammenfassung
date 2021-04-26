@@ -2,11 +2,49 @@
 
 {% block content %}
 
-{% if page.url_to_pdf %}
-    <a href="{{ page.url_to_pdf }}" title="Site PDF" class="md-content__button md-icon">
-        {% include ".icons/material/pdf-box.svg" %}
-    </a>
-{% endif %}
+    <div class="md-content__button dropdown">
+     <a class="md-content__button md-icon dropdown__button">{% include ".icons/material/pdf-box.svg" %}</a>
+     <div class="dropdown-content" id="pdf">
+       <a href="/Main.pdf">Main</a>
+     </div>
+    </div>
 
 {{ super() }}
+
 {% endblock content %}
+
+{% block scripts %}
+    <script type="text/javascript">
+      var list_str = `{{nav}}`;
+      list_str = list_str.replace(/Page\(/g, '\[').replace(/Section\(/g, '\[').replace(/\)/g, '\]').replace(/title=/g, "").replace(/url=/g, "").replace(/\'/g, "\"").replace(/\n/g, ",").replace(/\],\s*\[/g, "\]\, \[")
+      var list = JSON.parse("[" + list_str + "]")
+      var url = '{{page.url}}'
+      var urls = url.split("/")
+      urls.pop()
+      var pdf_url = ""
+      var pdf_text = ""
+      for (var u=1; u<=urls.length; u++) {
+        var path = "/"
+        for (i=0; i < u; i++) {
+          path += (urls[i] + "/")
+        }
+        for (var e = 0; e < list.length; e++) {
+          if (list[e].length > 1) {
+            if (list[e][1] == path){
+              pdf_text = list[e][0]
+              pdf_url = path + pdf_text + ".pdf"
+              break;
+            } else if (list[e][1].includes(path)) {
+              pdf_text = list[e-1]
+              pdf_url = path + pdf_text + ".pdf"
+              break;
+            }
+          }
+        }
+        var text = '<a href="' + pdf_url + '">' + pdf_text + '</a>'
+        document.getElementById("pdf").innerHTML += text
+      }
+
+    </script>
+{{ super() }}
+{% endblock scripts %}

@@ -89,3 +89,45 @@ img {
 .pdf-download-btn {
   display: none !important;
 }
+
+.md-content__button {
+  margin: 0 0 .4rem .4rem;
+}
+
+.dropdown{
+    float: left;
+    margin: 0 !important;
+}
+
+.dropdown__button {
+  float: left;
+  margin-right: .4rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  min-width: 10px;
+  box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 25px;
+  margin-top: -.3rem;
+  float: right;
+}
+
+.dropdown-content a {
+  padding: 8px 16px;
+  text-decoration: none;
+  display: flex;
+  border-radius: inherit;
+  font-size: small;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 1.5em 0 1.25em !important;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: flex;}
