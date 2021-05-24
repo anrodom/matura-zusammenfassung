@@ -4,7 +4,7 @@
 
 ### Probleme der klassischen Physik
 
-- klassische Elektrodynamik sagt, dass die $e^-$ durch ihre beschleunigte Bewegung um das Atom Energie in Form von elektromagnetische Wellen abstrahlen --> Atome sind instabil!?
+- klassische Elektrodynamik sagt, dass die $e^-$ durch ihre beschleunigte Bewegung um das Atom Energie in Form von elektromagnetische Wellen abstrahlen  $\rightarrow$ Atome sind instabil!?
 - Wieso besitzen Linienspektren scharfe Linien und wieso nicht weisses Licht ?
 - Der Photoeffekt:
 
@@ -37,7 +37,7 @@ $$1>\sin(u)>\frac{\lambda}{d}$$
 
 ### Teilchen sind auch Wellen
 
-- Wenn Elektronen an einer Graphit-Schicht apprallen entstehen keine "Flecken" sondern konzentrische Kreise / Interferenzmuster --> Elektronen sind Quantenobjekte
+- Wenn Elektronen an einer Graphit-Schicht abprallen entstehen keine "Flecken" sondern konzentrische Kreise / Interferenzmuster $\rightarrow$ Elektronen sind Quantenobjekte
 - Für Teilchen gilt nach De Broglie also:
 
 $$p=\frac{h}{\lambda}$$
@@ -82,7 +82,7 @@ Aus der Unschärferelation für Zeit und Energie folgt anschliessend:
 
 $$\Delta t\approx\frac{h}{\Delta E}=\frac{h}{mc^2}$$
 
-Teilchen mit Masse $m$ können für einen Zeitraum $\Delta t$ entstehen und wieder verschwinden --> virtuelle Teilchen
+Teilchen mit Masse $m$ können für einen Zeitraum $\Delta t$ entstehen und wieder verschwinden $\rightarrow$ virtuelle Teilchen
 
 Die folgende Tunnelbedingung gilt zur Überwindung der Energie $E_{Barr}$ einer Barriere mit Distanz $d$:
 
@@ -157,10 +157,10 @@ Keine Quantisierung
 
 #### Gesucht
 
-Modell mit Quantisierungund Unschärferelation
+Modell mit Quantisierung und Unschärferelation
 
 ### Franck-Hertz-Experiment
 
-Elektronen, die mit gewisser Spannung durch eine Gaswolke durchgeschossen werden. Sobald sie genug Spannung haben, geben sie diese den Gasatomen ab, verlieren also ihre Energie und bleiben stehen --> Strom fliesst nicht mehr.
+Elektronen, die mit gewisser Spannung durch eine Gaswolke durchgeschossen werden. Sobald sie genug Spannung haben, geben sie diese den Gasatomen ab, verlieren also ihre Energie und bleiben stehen $\rightarrow$ Strom fliesst nicht mehr.
 
 Anschliessend ist die Spannung / Energie so gross, dass die Elektronen wieder fliessen, bis sie erneut genug Energie besitzen.

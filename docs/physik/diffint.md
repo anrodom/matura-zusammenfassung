@@ -50,7 +50,7 @@ $$W=\int_{x_1}^{x_2} mg \,dx=mg(x_2-x_1)$$
 $$W=\int_{r_E}^{d} G\cdot\frac{m_E\cdot m}{x^2} \,dx=G\cdot m_E\cdot m(\frac{1}{r_E}-\frac{1}{d})$$
 
 > ### Exkurs Fluchtgeschwindigkeit
-> Die Geschwindigkeit, die nötig ist, um dem Gravitationsfeld von der Oberfläche antriebslos zu entkommen. Man setzt also $E_{kin}$ dem Einfluss des Gravitationsfeld von der Oberläche zu $\infty$:
+> Die Geschwindigkeit, die nötig ist, um dem Gravitationsfeld von der Oberfläche antriebslos zu entkommen. Man setzt also $E_{kin}$ dem Einfluss des Gravitationsfeld von der Oberfläche zu $\infty$:
 >
 > $$\int_{r_E}^{\infty} G\cdot\frac{m_E\cdot m}{x^2} \,dx$$
 >

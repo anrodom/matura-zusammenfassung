@@ -11,6 +11,10 @@ window.MathJax = {
   }
 };
 
+MathJax.Hub.Config({
+  TeX: {extensions: ["cancel.js"]}
+});
+
 document$.subscribe(() => {
   MathJax.typesetPromise()
 })

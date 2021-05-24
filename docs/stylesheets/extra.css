@@ -86,6 +86,10 @@ img {
   margin-right: auto;
 }
 
+img[alt] {
+    font-style: italic;
+}
+
 .pdf-download-btn {
   display: none !important;
 }

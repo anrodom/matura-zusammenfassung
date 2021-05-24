@@ -1,6 +1,8 @@
 ---
 header-includes:
   \usepackage{float}
+  \usepackage{amsmath}
+  \usepackage{cancel}
   \floatplacement{figure}{H}
 ---
 # Überblick
