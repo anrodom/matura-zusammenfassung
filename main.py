@@ -66,7 +66,7 @@ def createPDF(md_files, final_file):
                 with open(md_file, "r") as m:
                     #print(md_file, path)
                     text = m.readlines()
-                    text = [t.replace("$$\\begin", "\\begin").replace("align\}$$", "align\}") for t in text]
+                    text = [t.replace("$$\\begin", "\\begin").replace("align}$$", "align}").replace("pmatrix}$$", "pmatrix}") for t in text]
                     print(text)
                     f.writelines(text)
                     f.write('\n')
