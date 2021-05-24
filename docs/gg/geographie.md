@@ -2,5 +2,6 @@
 
 Folgende Themengebiete sind Stoff:
 
-- [(Wahlthema) Wetter und Klima](wetter&Klima.md)
-- [(Wahlthema) Geomorphologie](geomorph.md)
+- [Wahlthema Wetter und Klima](wetter&Klima.md)
+- [Wahlthema Geomorphologie](geomorph.md)
+

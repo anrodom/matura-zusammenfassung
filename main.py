@@ -10,12 +10,15 @@ def define_env(env):
     global nav
     nav = env.conf.get('nav')
 #"""
+
 def on_post_build(env):
     global site_dir
     site_dir = env.conf['site_dir']
+    """
     file_path = os.path.join(site_dir, "test.html")
     with open(file_path, 'w') as f:
         f.write("Hallo")
+    """
     n2l = []
     for n1 in nav:
         for n2 in n1:
@@ -63,8 +66,7 @@ def createPDF(md_files, final_file):
                 with open(md_file, "r") as m:
                     #print(md_file, path)
                     text = m.readlines()
-                    text.replace("$$\begin", "\begin")
-                    text.replace("$$\end", "\end")
+                    text = [t.replace("$$\begin", "\begin").replace("align}$$", "align}") for t in text]
                     f.writelines(text)
                     f.write('\n')
         else:
@@ -75,7 +77,7 @@ def createPDF(md_files, final_file):
                 f.writelines(text)
                 f.write('\n')
             # m.close()
-    a = f'pandoc --pdf-engine=pdflatex "{n}" --resource-path=.:docs/img -o "{path}"'
+    a = f'pandoc --pdf-engine=pdflatex "{n}" --resource-path=.:docs/img:docs/img/nested -o "{path}"'
     print(a)
     os.system(a)
         # f.truncate(0)

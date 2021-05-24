@@ -17,7 +17,8 @@
     <script type="text/javascript">
       var list_str = `{{nav}}`;
       list_str = list_str.replace(/Page\(/g, '\[').replace(/Section\(/g, '\[').replace(/\)/g, '\]').replace(/title=/g, "").replace(/url=/g, "").replace(/\'/g, "\"").replace(/\n/g, ",").replace(/\],\s*\[/g, "\]\, \[")
-      var list = JSON.parse("[" + list_str + "]")
+      console.log(list_str)
+      var list = JSON.parse(`[` + list_str + `]`)
       console.log(list)
       var url = '{{page.url}}'
       var urls = url.split("/")

@@ -27,7 +27,6 @@ nav:
     - Physik:
       - Stoffplan: physik/physik.md
       - Mechanik: physik/mechanik.md
-      - Kreisbewegung: physik/kreisb.md
       - Hydrostatik/Aeorostatik: physik/hydro-aeors.md
       - Wärme: physik/wärme.md
       - Elektrizität: physik/elek.md
@@ -48,8 +47,8 @@ nav:
       - Parameterfunktionen: am/paramF.md
     - Geographie:
       - Stoffplan: gg/geographie.md
-      - (Wahlthema) Wetter und Klima: gg/wetter&Klima.md
-      - (Wahlthema) Geomorphologie: gg/geomorph.md
+      - Wahlthema Wetter und Klima: gg/wetter&Klima.md
+      - Wahlthema Geomorphologie: gg/geomorph.md
 extra_css:
   - stylesheets/extra.css
 theme:
