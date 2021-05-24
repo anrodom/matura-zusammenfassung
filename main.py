@@ -63,6 +63,8 @@ def createPDF(md_files, final_file):
                 with open(md_file, "r") as m:
                     #print(md_file, path)
                     text = m.readlines()
+                    text.replace("$$\begin", "\begin")
+                    text.replace("$$\end", "\end")
                     f.writelines(text)
                     f.write('\n')
         else:
