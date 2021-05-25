@@ -75,8 +75,7 @@ def createPDF(md_files, final_file):
                 with open(md_file, "r") as m:
                     #print(md_file, path)
                     text = m.readlines()
-                    text = [t.replace("$$\\begin", "\\begin").replace("align}$$", "align}").replace("pmatrix}$$", "pmatrix}") for t in text]
-                    text.insert(0,preamble)
+                    text = replaceText(text)
                     f.writelines(text)
                     f.write('\n')
         else:
@@ -84,8 +83,7 @@ def createPDF(md_files, final_file):
             with open(md_file, "r") as m:
                 #print(md_file, path)
                 text = m.readlines()
-                text = [t.replace("$$\\begin", "\\begin").replace("align}$$", "align}").replace("pmatrix}$$", "pmatrix}") for t in text]
-                text.insert(0,preamble)
+                text = replaceText(text)
                 f.writelines(text)
                 f.write('\n')
             # m.close()
@@ -95,3 +93,16 @@ def createPDF(md_files, final_file):
         # f.truncate(0)
     # os.remove(n)
 #"""
+
+def replaceText(text):
+    final = [preamble]
+    start = False
+    for t in text:
+        if "$$\\begin" in t:
+            t.replace("$$\\begin", "\\begin")
+            start = True
+        if start:
+            t.replace("align}$$", "align}").replace("pmatrix}$$", "pmatrix}")
+            start = False
+        final.append(t)
+    return final
