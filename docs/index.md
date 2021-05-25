@@ -1,10 +1,3 @@
----
-header-includes:
-  \usepackage{float}
-  \usepackage{amsmath}
-  \usepackage{cancel}
-  \floatplacement{figure}{H}
----
 # Überblick
 
 Sinn dieser Seite ist die Erstellung der Zusammenfassungen, damit auf diese geordnet, online und ohne Verschwendung von Papier zugegriffen werden kann, für die folgenden Fächer:

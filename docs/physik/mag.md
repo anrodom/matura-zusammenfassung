@@ -37,7 +37,7 @@ Die Lorentzkraft $F_L$ auf ein bewegtes geladenes Teilchen $q$ mit Geschwindigke
 
 $$\begin{align}
 	\vec{F_L}&=q\cdot\vec{v}\times\vec{B}\\
-	F_L&qI\cdot v\cdot B\cdot
+	F_L&=q\cdot v\cdot B
 \end{align}$$
 
 Für die Richtung gilt der Mittelfinger der rechten Hand, wenn der Daumen den Geschwindigkeitsvektor und der Zeigefinger das $\vec{B}$-Feld anzeigen, falls $q>0$ gilt. Für Elektronen also zeigt $F_L$ in die entgegengesetzte Richtung bzw. man nimmt die linke Hand.

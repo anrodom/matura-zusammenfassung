@@ -5,6 +5,15 @@ import os
 
 nav = []
 site_dir = ""
+preamble = """
+---
+header-includes:
+  \usepackage{float}
+  \usepackage{amsmath}
+  \usepackage{cancel}
+  \floatplacement{figure}{H}
+---
+"""
 
 def define_env(env):
     global nav
@@ -67,6 +76,7 @@ def createPDF(md_files, final_file):
                     #print(md_file, path)
                     text = m.readlines()
                     text = [t.replace("$$\\begin", "\\begin").replace("align}$$", "align}").replace("pmatrix}$$", "pmatrix}") for t in text]
+                    text.insert(0,preamble)
                     f.writelines(text)
                     f.write('\n')
         else:
@@ -75,6 +85,7 @@ def createPDF(md_files, final_file):
                 #print(md_file, path)
                 text = m.readlines()
                 text = [t.replace("$$\\begin", "\\begin").replace("align}$$", "align}").replace("pmatrix}$$", "pmatrix}") for t in text]
+                text.insert(0,preamble)
                 f.writelines(text)
                 f.write('\n')
             # m.close()
