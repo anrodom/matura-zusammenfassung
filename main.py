@@ -2,6 +2,7 @@
 Create the pdf's for the site
 """
 import os
+import re
 
 nav = []
 site_dir = ""
@@ -18,16 +19,14 @@ header-includes:
 def define_env(env):
     global nav
     nav = env.conf.get('nav')
-#"""
+
+def on_post_page_macros(env):
+
+    env._raw_markdown = env._raw_markdown.replace("\\\\\n", "\\\\[11pt]\n")
 
 def on_post_build(env):
     global site_dir
     site_dir = env.conf['site_dir']
-    """
-    file_path = os.path.join(site_dir, "test.html")
-    with open(file_path, 'w') as f:
-        f.write("Hallo")
-    """
     n2l = []
     for n1 in nav:
         for n2 in n1:
@@ -58,9 +57,12 @@ def on_post_build(env):
             if n4l != []:
                 createPDF(n4l, n2)
     if n2l != []:
+        print("HIII")
         createPDF(n2l, "Main")
 
 def createPDF(md_files, final_file):
+    if final_file == "Home":
+        return
     t = type(md_files) == list
     d_name = md_files[0] if t else md_files[:-3] + "/file.type"
     path = os.path.join(site_dir, os.path.dirname(d_name), final_file)
@@ -83,26 +85,18 @@ def createPDF(md_files, final_file):
                 text = replaceText(text)
                 f.writelines(text)
                 f.write('\n')
-    a = f'pandoc -s --pdf-engine=pdflatex "{n}" --resource-path=.:docs/img:docs/img/nested -o "{path}"'
+    a = f'pandoc -s --pdf-engine=pdflatex "{n}" --resource-path=.:docs/img:docs/nested/nested -o "{path}"'
     print(a)
     os.system(a)
 
 def replaceText(text):
     final = [preamble]
-    start_align = False
-    start_pmatrix = False
-    for t in text:
-        if "$$\\begin{align}" in t:
-            t = t.replace("$$\\begin{align}", "\\begin{align}")
-            start_align = True
-        if start_align and "end{align}$$" in t:
-            t = t.replace("end{align}$$", "end{align}")
-            start_align = False
-        if "$$\\begin{pmatrix}" in t:
-            t = t.replace("$$\\begin{pmatrix}", "\\begin{pmatrix}")
-            start_pmatrix = True
-        if start_pmatrix and "end{pmatrix}$$" in t:
-            t = t.replace("end{pmatrix}$$", "end{pmatrix}")
-            start_pmatrix = False
-        final.append(t)
+    string = "".join(text)
+    string = re.sub(r"\$\$\\begin\{align\}.*?end\{align\}\$\$", replace, string, count=0, flags=re.DOTALL)
+    for s in string.splitlines(True):
+        final.append(s)
     return final
+
+def replace(obj):
+    t = obj[0][2:-2]
+    return t

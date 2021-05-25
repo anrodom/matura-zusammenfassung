@@ -1,3 +1,7 @@
+MathJax.Hub.Config({
+  TeX: {extensions: ["cancel.js"]}
+});
+
 window.MathJax = {
   tex: {
     inlineMath: [["\\(", "\\)"]],
@@ -10,10 +14,6 @@ window.MathJax = {
     processHtmlClass: "arithmatex"
   }
 };
-
-MathJax.Hub.Config({
-  TeX: {extensions: ["cancel.js"]}
-});
 
 document$.subscribe(() => {
   MathJax.typesetPromise()
