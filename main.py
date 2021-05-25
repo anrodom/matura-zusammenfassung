@@ -8,10 +8,10 @@ site_dir = ""
 preamble = """
 ---
 header-includes:
-  \usepackage{float}
-  \usepackage{amsmath}
-  \usepackage{cancel}
-  \floatplacement{figure}{H}
+  \\usepackage{float}
+  \\usepackage{amsmath}
+  \\usepackage{cancel}
+  \\floatplacement{figure}{H}
 ---
 """
 
