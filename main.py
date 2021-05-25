@@ -89,13 +89,20 @@ def createPDF(md_files, final_file):
 
 def replaceText(text):
     final = [preamble]
-    start = False
+    start_align = False
+    start_pmatrix = False
     for t in text:
-        if "$$\\begin" in t:
-            t = t.replace("$$\\begin", "\\begin")
-            start = True
-        if start and ("align}$$" in t or "pmatrix}$$" in t):
-            t = t.replace("align}$$", "align}").replace("pmatrix}$$", "pmatrix}")
-            start = False
+        if "$$\\begin{align}" in t:
+            t = t.replace("$$\\begin{align}", "\\begin{align}")
+            start_align = True
+        if start_align and "end{align}$$" in t:
+            t = t.replace("end{align}$$", "end{align}")
+            start_align = False
+        if "$$\\begin{pmatrix}" in t:
+            t = t.replace("$$\\begin{pmatrix}", "\\begin{pmatrix}")
+            start_pmatrix = True
+        if start_pmatrix and "end{pmatrix}$$" in t:
+            t = t.replace("end{pmatrix}$$", "end{pmatrix}")
+            start_pmatrix = False
         final.append(t)
     return final

@@ -1,4 +1,4 @@
-# Hydrostatik/Aerostatik
+# Hydrostatik|Aerostatik
 
 ## Dichte
 

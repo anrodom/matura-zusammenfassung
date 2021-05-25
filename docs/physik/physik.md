@@ -2,7 +2,7 @@
 Folgende Themengebiete sind Stoff:
 
 - [Mechanik](mechanik.md)
-- [Hydrostatik/Aerostatik](hydro-aeors.md)
+- [Hydrostatik|Aerostatik](hydro-aeors.md)
 - [Thermodynamik](wärme.md)
 - [Elektrizität](elek.md)
 - [Magnetismus](mag.md)
