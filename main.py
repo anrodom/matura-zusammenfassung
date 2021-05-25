@@ -64,7 +64,6 @@ def createPDF(md_files, final_file):
     t = type(md_files) == list
     d_name = md_files[0] if t else md_files[:-3] + "/file.type"
     path = os.path.join(site_dir, os.path.dirname(d_name), final_file)
-    #n = path + ".md"
     n = "Temp.md"
     print(md_files, path, d_name)
     with open(n, "w") as f:
@@ -73,7 +72,6 @@ def createPDF(md_files, final_file):
             for md_file_rel in md_files:
                 md_file = "docs/" + md_file_rel
                 with open(md_file, "r") as m:
-                    #print(md_file, path)
                     text = m.readlines()
                     text = replaceText(text)
                     f.writelines(text)
@@ -81,28 +79,24 @@ def createPDF(md_files, final_file):
         else:
             md_file = "docs/" + md_files
             with open(md_file, "r") as m:
-                #print(md_file, path)
                 text = m.readlines()
                 text = replaceText(text)
                 f.writelines(text)
                 f.write('\n')
-            # m.close()
     a = f'pandoc -s --pdf-engine=pdflatex "{n}" --resource-path=.:docs/img:docs/img/nested -o "{path}"'
     print(a)
     os.system(a)
-        # f.truncate(0)
-    # os.remove(n)
-#"""
 
 def replaceText(text):
     final = [preamble]
     start = False
     for t in text:
         if "$$\\begin" in t:
-            t.replace("$$\\begin", "\\begin")
+            t = t.replace("$$\\begin", "\\begin")
             start = True
-        if start:
-            t.replace("align}$$", "align}").replace("pmatrix}$$", "pmatrix}")
+        if start and ("align}$$" in t or "pmatrix}$$" in t):
+            t = t.replace("align}$$", "align}").replace("pmatrix}$$", "pmatrix}")
             start = False
         final.append(t)
+        print(t)
     return final

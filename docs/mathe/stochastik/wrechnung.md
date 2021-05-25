@@ -42,7 +42,7 @@ $$\begin{align}
 
 Für die umgekehrte Bedingung $p(B|A)$ können wir (klarer mit Mengenlehre) Folgendes genau so gut schreiben:
 
-$$p(B|A)=\frac{p(A\wedge B)}{p(B)} = \frac{p(A|B)\cdot p(B)}{p(A)}$$
+$$p(B|A)=\frac{p(A\wedge B)}{p(A)} = \frac{p(A|B)\cdot p(B)}{p(A)}$$
 
 
 Ereignisse gelten als unabhängig, wenn eines der Folgenden gilt:
