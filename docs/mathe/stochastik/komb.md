@@ -36,31 +36,31 @@ Bei Mengen zählt man normalerweise die Tupel und dividiert aufgrund der Unbedeu
 
 Auch das ist aufwendig aufzuschreiben (selbst mit Fakultäten) also definiert man "n tief k":
 
-$$\frac{n(n-1)...(n-k+1)}{k!}=\frac{n!}{k!(n-k)!}={{n}\choose{k}}$$
+$$\frac{n(n-1)...(n-k+1)}{k!}=\frac{n!}{k!(n-k)!}={n\choose k}$$
 
 ### Bei Tupelaufgaben
 
-Sobald Positionen auf Tupeln ins Spiel kommen, verwendet man auch ${{n}\choose{k}}$.
+Sobald Positionen auf Tupeln ins Spiel kommen, verwendet man auch ${n\choose k}$.
 
-Bsp. Kawasaki-Problem: Anzahl neuer Wörter (Permutationen). Man hat das Tupel $(K,K,W,A,S,A,I,A)$ also 2 $K$ und 3 $A$ die sich wiederholen. Man schaut sich also zuerst an, wie viele Positionen man den beiden $K$ zuordnen kann ${{8}\choose{2}}$. Das gleiche für die $A$ und den übrig gebliebenen Positionen ${{6}\choose{3}}$. Schliesslich bleiben noch $3!$ für den Rest übrig. Insgesamt also ${{8}\choose{2}}{{6}\choose{3}}3! = 3360$
+Bsp. Kawasaki-Problem: Anzahl neuer Wörter (Permutationen). Man hat das Tupel $(K,K,W,A,S,A,I,A)$ also 2 $K$ und 3 $A$ die sich wiederholen. Man schaut sich also zuerst an, wie viele Positionen man den beiden $K$ zuordnen kann ${8\choose 2}$. Das gleiche für die $A$ und den übrig gebliebenen Positionen ${6\choose 3}$. Schliesslich bleiben noch $3!$ für den Rest übrig. Insgesamt also ${8\choose 2}{6\choose 3}3! = 3360$
 
 ## Gesetze zu n tief k
 
 Wichtig für grosse $n$:
 
-$${{n}\choose{k}}={{n}\choose{n-k}}$$
+$${n\choose k}={n\choose n-k}$$
 
 Weiter:
 
-$${{n}\choose{k}} + {{n}\choose{k+1}} = {{n+1}\choose{k+1}}$$
+$${n\choose k} + {n\choose k+1} = {n+1\choose k+1}$$
 
 ## Kombinatorik und das Pascaldreieck
 
-Bei z. B. $(a+b)^5 = (a+b)(a+b)(a+b)(a+b)(a+b)$ findet man $a^3b^2$ 10-mal vor, was ${{5}\choose{3}}$ bzw. ${{5}\choose{2}}$ entspricht. Mit anderen Worten 3 Klammer aus denen man $a$ nimmt und 2 mit $b$.
+Bei z. B. $(a+b)^5 = (a+b)(a+b)(a+b)(a+b)(a+b)$ findet man $a^3b^2$ 10-mal vor, was ${5\choose 3}$ bzw. ${5\choose 2}$ entspricht. Mit anderen Worten 3 Klammer aus denen man $a$ nimmt und 2 mit $b$.
 
 Demnach gilt für $n\in\mathbb{N}$:
 
-$$(a+b)^n = \sum_{k=0}^{n}{{n}\choose{k}}a^kb^{n-k}$$
+$$(a+b)^n = \sum_{k=0}^{n}{n\choose k}a^kb^{n-k}$$
 
 ## Kombinatorik und e
 
@@ -68,7 +68,7 @@ $$(a+b)^n = \sum_{k=0}^{n}{{n}\choose{k}}a^kb^{n-k}$$
 
 $$\begin{align}
   e&=\lim_{n\to\infty}(1+\frac{1}{n})^n\\
-  &=\lim_{n\to\infty}\sum_{k=0}^{n}{{n}\choose{k}}(\frac{1}{n})^k1^{n-k}\\
+  &=\lim_{n\to\infty}\sum_{k=0}^{n}{n\choose k}(\frac{1}{n})^k1^{n-k}\\
   &=\lim_{n\to\infty}\sum_{k=0}^{n}\frac{n(n-1)...(n-k+1)}{k!}\frac{1}{n^k}\\
   &=\sum_{k=0}^{\infty}\frac{1}{k!}
 \end{align}$$
@@ -102,13 +102,13 @@ Das ist ein Widerspruch, da es sich bei den Zahlen in $[...]$ um ganze Zahlen ha
 
 ## Neue Binomialkoeffizienten
 
-Aus der Tatsache, dass in z. B. $(a+b)^{\frac{1}{2}} = \sqrt{a+b}$ auch rationale Zahlen eingesetzt werden können, müssen auch rationale Werte für $n$ in ${{n}\choose{k}}$ Sinn ergeben:
+Aus der Tatsache, dass in z. B. $(a+b)^{\frac{1}{2}} = \sqrt{a+b}$ auch rationale Zahlen eingesetzt werden können, müssen auch rationale Werte für $n$ in ${n\choose k}$ Sinn ergeben:
 
 $$\begin{align}
-  {{\frac{1}{2}}\choose{0}}&=1\\
-  {{\frac{1}{2}}\choose{1}}&=\frac{1}{2}\\
-  {{\frac{1}{2}}\choose{2}}&=\frac{\frac{1}{2}\cdot(-\frac{1}{2})}{2!}=-\frac{1}{8}\\
-  {{\frac{1}{2}}\choose{3}}&=\frac{\frac{1}{2}\cdot(-\frac{1}{2})\cdot(-\frac{3}{2})}{3!}=\frac{1}{16}\\
+  {\frac{1}{2}\choose 0}&=1\\
+  {\frac{1}{2}\choose 1}&=\frac{1}{2}\\
+  {\frac{1}{2}\choose 2}&=\frac{\frac{1}{2}\cdot(-\frac{1}{2})}{2!}=-\frac{1}{8}\\
+  {\frac{1}{2}\choose 3}&=\frac{\frac{1}{2}\cdot(-\frac{1}{2})\cdot(-\frac{3}{2})}{3!}=\frac{1}{16}\\
 \end{align}$$
 
 
@@ -120,6 +120,6 @@ $$\begin{align}
         *  Dürfen Elemente mehrmals vorkommen?
             *  **Ja** --> Zähle mit $k\cdot k\cdot k\cdot...$
             *  **Nein** --> Zähle mit $k\cdot(k-1)\cdot(k-2)\cdot...$
-        *  Spezialfall Positionen auf Tupel --> ${{n}\choose{k}}$
+        *  Spezialfall Positionen auf Tupel --> ${n\choose k}$
     *  **Nein** --> Mengen
-        *  Zähle mit ${{n}\choose{k}}$
+        *  Zähle mit ${n\choose k}$

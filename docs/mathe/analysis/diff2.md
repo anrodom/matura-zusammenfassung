@@ -164,7 +164,7 @@ $$\begin{align}
 
 Wenn nun jeweils $x=0$ eingesetzt wird, erhält man für die Polynomreihe:
 
-$$(1+x)^a=\sum_{n=0}^{\infty}{{a}\choose{n}}x^n$$
+$$(1+x)^a=\sum_{n=0}^{\infty}{a\choose n}x^n$$
 
 ### Das Basel-Problem
 

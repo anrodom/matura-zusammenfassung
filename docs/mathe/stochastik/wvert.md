@@ -22,8 +22,8 @@ Auch die Anzahl Runs (wie oft wechselt der eigentliche Erwartungswert) wird oft 
 Für $E(Y)$ mit $n$ als Anzahl möglicher Wechsel (immer 1 weniger als die Anzahl der z. B. Würfe), $k$ als Anzahl der Wechsel und $p$ als als Wahrscheinlichkeit eines Wechsels gilt also:
 
 $$\begin{align}
-E(Y)&=1\cdot{{n}\choose{0}}p^{(n+1)}+2\cdot{{n}\choose{1}}p^{(n+1)}+3\cdot{{n}\choose{2}}p^{(n+1)}+...+(n+1)\cdot{{n}\choose{n}}p^{(n+1)}\\
-  &=p^{(n+1)}[\sum_{k=0}^{n}(k+1){{n}\choose{k}}]
+E(Y)&=1\cdot{n\choose 0}p^{(n+1)}+2\cdot{n\choose 1}p^{(n+1)}+3\cdot{n\choose 2}p^{(n+1)}+...+(n+1)\cdot{n\choose n}p^{(n+1)}\\
+  &=p^{(n+1)}[\sum_{k=0}^{n}(k+1){n\choose k}]
 \end{align}$$
 
 ### Varianz / Standardabweichung
@@ -48,7 +48,7 @@ $n$ sei die Anzahl Stufen / Versuche, $p$ die Wahrscheinlichkeit ($q=1-p$) für 
 
 #### Formel von Bernoulli
 
-$$p(X = k)={{n}\choose{k}}\cdot p^k\cdot q^{n-k}$$
+$$p(X = k)={n\choose k}\cdot p^k\cdot q^{n-k}$$
 
 ####  binomialpdf
 
