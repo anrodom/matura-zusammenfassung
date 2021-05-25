@@ -1,3 +1,8 @@
+---
+header-includes:
+  \usepackage{cancel}
+---
+
 # Endliche Folgen und Reihen
 
 ## Begriffe

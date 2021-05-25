@@ -1,3 +1,8 @@
+---
+header-includes:
+  \usepackage{cancel}
+---
+
 # Differentialrechnung I
 
 ## Allgemein
