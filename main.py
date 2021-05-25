@@ -98,5 +98,4 @@ def replaceText(text):
             t = t.replace("align}$$", "align}").replace("pmatrix}$$", "pmatrix}")
             start = False
         final.append(t)
-        print(t)
     return final
