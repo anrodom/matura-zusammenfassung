@@ -75,10 +75,11 @@ def createPDF(md_files, final_file):
             with open(md_file, "r") as m:
                 #print(md_file, path)
                 text = m.readlines()
+                text = [t.replace("$$\\begin", "\\begin").replace("align}$$", "align}").replace("pmatrix}$$", "pmatrix}") for t in text]
                 f.writelines(text)
                 f.write('\n')
             # m.close()
-    a = f'pandoc --pdf-engine=pdflatex "{n}" --resource-path=.:docs/img:docs/img/nested -o "{path}"'
+    a = f'pandoc -s --pdf-engine=pdflatex "{n}" --resource-path=.:docs/img:docs/img/nested -o "{path}"'
     print(a)
     os.system(a)
         # f.truncate(0)
