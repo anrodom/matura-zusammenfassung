@@ -109,7 +109,7 @@ def replace(obj):
 
 def links(obj):
     s = obj[0].split("]")[0]
-    t = s[2:].replace(" ", "-").lower()
+    t = s[2:].replace(" ", "-").lower().replace(",", "").replace("(", "").replace(")", "").replace("|", "")
     if t in subjects:
         t += "-überblick"
-    return s + '](#"' + t + '")'
+    return s + '](#' + t + ')'
