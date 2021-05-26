@@ -77,7 +77,7 @@ $$n = \log_{p(\textrm{kein Deffekt})}(1-p(\textrm{mind. Sicherheit}))$$
 Abschätzung für $\frac{1}{1}+\frac{1}{2}+..+\frac{1}{n}$:
 
 $$\begin{align}
-  \int_{1}^{n}\frac{1}{n}\,dx+\frac{1}{n}&<\frac{1}{1}+\frac{1}{2}+..+\frac{1}{n}\\
+  \int_{1}^{n}\frac{1}{x}\,dx+\frac{1}{n}&<\frac{1}{1}+\frac{1}{2}+..+\frac{1}{n}\\
   \ln(n)+\frac{1}{n}&<\frac{1}{1}+\frac{1}{2}+..+\frac{1}{n}\\
   \ln(n)&\approx\frac{1}{1}+\frac{1}{2}+..+\frac{1}{n}
 \end{align}$$

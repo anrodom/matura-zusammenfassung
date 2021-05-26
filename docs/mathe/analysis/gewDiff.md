@@ -6,7 +6,7 @@ Bei Differenzen-Gleichungen arbeitet man mit Relativen Zunahmen:
 
 $$\frac{\Delta y}{\Delta x}$$
 
-Bei Differenzial-Gleichungen arbeitet man mit Momentane Zunahme:
+Bei Differenzial-Gleichungen arbeitet man mit Momentaner Zunahme:
 
 $$\lim_{\Delta x\to 0}\frac{\Delta y}{\Delta x}=\frac{dy}{dx}$$
 
@@ -18,7 +18,7 @@ $$\frac{\Delta y}{\Delta x}=\textrm{konst.}\;\textrm{und}\;\frac{dy}{dx}=\textrm
 
 ## Exponentielles Wachstum
 
-Die Momentane Zunahme ist proportional zum Funktionswert/vorhandenen Anzahl:
+Die Momentane Zunahme ist proportional zum Funktionswert / zur vorhandenen Anzahl:
 
 $$\frac{\frac{dy}{dx}}{y}=\frac{y'}{y}=\textrm{konst.}$$
 
@@ -36,7 +36,7 @@ $$y'=k\cdot y(G-y)$$
 
 ### Allgemein
 
-Die wichtigste Methode beim Lösen von DG's ist die sogenannte Separation der Variablen. Das bedeutet, dass man alle $y$ und $y'$ auf die eine Seite bringt und den Rest auf der anderen. Wichtig dabei ist, dass zu jedem $y$ auch ein $y'$ vorhanden ist, damit integriert werden kann.
+Die wichtigste Methode beim Lösen von DG's ist die sogenannte Separation der Variablen. Das bedeutet, dass man alle $y$ und $y'$ auf die eine Seite bringt und den Rest auf die andere. Wichtig dabei ist, dass zu jedem $y$ auch ein $y'$ vorhanden ist, damit integriert werden kann.
 
 Beim Integrieren entsteht die Integrationskonstante $C$. Es gibt also unendlich viele Funktionen als Lösung. Man braucht also eine Anfangsbedingung, um das jeweilige $C$ zu finden.
 

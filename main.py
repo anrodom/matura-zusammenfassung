@@ -57,8 +57,8 @@ def on_post_build(env):
             if n4l != []:
                 createPDF(n4l, n2)
     if n2l != []:
-        print("HIII")
         createPDF(n2l, "Main")
+
 
 def createPDF(md_files, final_file):
     if final_file == "Home":
@@ -67,7 +67,7 @@ def createPDF(md_files, final_file):
     d_name = md_files[0] if t else md_files[:-3] + "/file.type"
     path = os.path.join(site_dir, os.path.dirname(d_name), final_file)
     n = "Temp.md"
-    print(md_files, path, d_name)
+    # print(md_files, path, d_name)
     with open(n, "w") as f:
         path += ".pdf"
         if t:
@@ -85,15 +85,18 @@ def createPDF(md_files, final_file):
                 text = replaceText(text)
                 f.writelines(text)
                 f.write('\n')
+
     a = f'pandoc -s --pdf-engine=pdflatex "{n}" --resource-path=.:docs/img -o "{path}"'
     print(a)
     os.system(a)
+
 
 def replaceText(text):
     final = [preamble]
     string = "".join(text)
     string = re.sub(r"\$\$\\begin\{align\}.*?end\{align\}\$\$", replace, string, count=0, flags=re.DOTALL)
     string = string.replace("../../", "../")
+    string = re.sub(r"\s\[.*?\]\(.*?\)", links, string)
     for s in string.splitlines(True):
         final.append(s)
     return final
@@ -101,3 +104,8 @@ def replaceText(text):
 def replace(obj):
     t = obj[0][2:-2]
     return t
+
+def links(obj):
+    s = obj[0].split("]")[0]
+    t = s[2:].replace(" ", "-").lower()
+    return s + "](#" + t + ")"

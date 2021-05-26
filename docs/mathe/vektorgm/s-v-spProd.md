@@ -38,11 +38,11 @@ Folgende Bedingungen müssen erfüllt sein:
 1.  $$n_1a_1+n_2a_2+n_3a_3 = 0$$
 2.  $$n_1b_1+n_2b_2+n_3b_3 = 0$$
 
-Man kann nun 1. nach $n_1$ auflösen und erhält:
+Man kann nun 3. nach $n_1$ auflösen und erhält:
 
 $$n_1=\frac{-n_2a_2-n_3a_3}{a_1}$$
 
-Durch einsetzen von 1. in 2. erhält man nach auflösen:
+Durch einsetzen von 3. in 4. erhält man nach auflösen:
 
 $$n_2(a_1b_2-a_2b_1) + n_3(a_1b_3-a_3b_1) = 0$$
 
@@ -69,7 +69,7 @@ $$(\vec{a}\times\vec{b})\times\vec{c}\neq\vec{a}\times(\vec{b}\times\vec{c})$$
 $$\begin{align}
   |\vec{a}\times\vec{b}| &= \sqrt{(a_2b_3-a_3b_2)^2+(a_3b_1-a_1b_3)^2+(a_1b_2-a_2b_1)^2}\\
   &= ... \\
-  &= |\vec{a}||\vec{b}|\sin
+  &= |\vec{a}||\vec{b}|\sin(\alpha)
 \end{align}$$
 
 Geometrisch ist das die Fläche des von den Vektoren $\vec{a}$ und $\vec{b}$ aufgespannten Parallelogramms
@@ -97,6 +97,6 @@ $$\begin{align}
   &= ||\vec{a}\times\vec{b}|\cdot|\vec{c}|\cos(\alpha)|=||\vec{a}\times\vec{b}|\cdot\vec{c}|
 \end{align}$$
 
-Für Rechts- und Linkssysteme (bei Linkssystemen ist das Ergebnis negativ, da das Kreuzprodukt nach oben zeigt und $\vec{c}$ aber nach unten --> $\cos(180°-\alpha) = -\cos(\alpha)$).
+Für Rechts- und Linkssysteme (bei Linkssystemen ist das Ergebnis negativ, da das Kreuzprodukt nach oben zeigt und $\vec{c}$ aber nach unten --> $\cos(180^{\circ}-\alpha) = -\cos(\alpha)$).
 
 Wenn für das Spatprodukt $|\vec{a}\times\vec{b}|\cdot\vec{c}=0$ gilt, befinden sich die Vektoren in der gleichen Ebene sprich sie sind komplanar. (Gl.-Systeme haben dann keine oder unendlich viele Lösungen, wenn ihr Spatprodukt 0 ist. Determinante und Spatprodukt sind dasselbe!)

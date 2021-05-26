@@ -21,7 +21,8 @@ $$\begin{align}
   &=\lim_{\Delta x\to 0}\frac{f(u+\Delta u)-f(u)}{\Delta x}\cdot\frac{\Delta u}{\Delta u}\\
   &=\lim_{\Delta x\to 0}\frac{f(u+\Delta u)-f(u)}{\Delta u}\cdot\lim_{\Delta x\to 0}\frac{\Delta u}{\Delta x}\\
   &=\lim_{\Delta u\to 0}\frac{f(u+\Delta u)-f(u)}{\Delta u}\cdot\lim_{\Delta x\to 0}\frac{\Delta u}{\Delta x}\\
-  &=f'(u)\cdot g'(x)
+  &=f'(u)\cdot g'(x)\\
+  &=f'(g(x))\cdot g'(x)
 \end{align}$$
 
 ### Quotientenregel
@@ -105,7 +106,7 @@ $$\begin{align}
   \cosh^2(x)-\sinh^2(x)&=1
 \end{align}$$
 
-Für die Umkehrfunktionen $\textrm{arcosh}(x)$,$\textrm{arsinh}(x)$ und $\textrm{artanh}(x)$ gilt:
+Für die Umkehrfunktionen $\textrm{arcosh}(x)$, $\textrm{arsinh}(x)$ und $\textrm{artanh}(x)$ gilt:
 
 $$\begin{align}
   \textrm{arcosh}(x)&=\frac{1}{\sqrt{x^2-1}}\\
@@ -115,7 +116,7 @@ $$\begin{align}
 
 ## Implizites Differenzieren
 
-Funktionen kann man anstatt sie direkt abzuleiten zuerst umformen und anschliessend ableiten. Achten muss man dabei, dass beim ableiten des Teiles mit $y$, dieser mit $y'$ multipliziert wird. Bsp. :
+Funktionen kann man, anstatt sie direkt abzuleiten, zuerst umformen und anschliessend ableiten. Achten muss man dabei darauf, dass beim Ableiten des Teiles mit $y$, dieser mit $y'$ multipliziert wird. Bsp. :
 
 $$\begin{align}
   y&=\sqrt[3]{2x+1}\\
@@ -157,9 +158,9 @@ Es gilt:
 
 $$\begin{align}
 	y&=(1+x)^a\\
-	y'&=a(1+x)^(a-1)\\
-	y''&=a(a-1)(1+x)^(a-2)\\
-	y'''&=a(a-1)(a-2)(1+x)^(a-3)\\
+	y'&=a(1+x)^{(a-1)}\\
+	y''&=a(a-1)(1+x)^{(a-2)}\\
+	y'''&=a(a-1)(a-2)(1+x)^{(a-3)}\\
 \end{align}$$
 
 Wenn nun jeweils $x=0$ eingesetzt wird, erhält man für die Polynomreihe:
@@ -175,17 +176,17 @@ $$1+\frac{1}{1^2}+\frac{1}{2^2}+\frac{1}{3^2}+...$$
 Wir schreiben dafür zuerst $\sin(x)$ als unendliches Polynom mit denselben Nullstellen:
 
 $$\begin{align}
-	\sin(x)&=Cx(1-\frac{x^2}{\pi^2})(1-\frac{x^2}{(2\pi)^2})(1-\frac{x^2}{(3\pi)^2})...\\
-	\frac{\sin(x)}{x}&=C(1-\frac{x^2}{\pi^2})(1-\frac{x^2}{(2\pi)^2})(1-\frac{x^2}{(3\pi)^2})...\\
-	\lim_{x\to 0}\frac{\sin(x)}{x}&=C\lim_{x\to 0}(1-\frac{x^2}{\pi^2})(1-\frac{x^2}{(2\pi)^2})(1-\frac{x^2}{(3\pi)^2})...\\
+	\sin(x)&=Cx\left(1-\frac{x^2}{\pi^2}\right)\left(1-\frac{x^2}{(2\pi)^2}\right)\left(1-\frac{x^2}{(3\pi)^2}\right)...\\
+	\frac{\sin(x)}{x}&=C\left(1-\frac{x^2}{\pi^2}\right)\left(1-\frac{x^2}{(2\pi)^2}\right)\left(1-\frac{x^2}{(3\pi)^2}\right)...\\
+	\lim_{x\to 0}\frac{\sin(x)}{x}&=C\lim_{x\to 0}\left(1-\frac{x^2}{\pi^2}\right)\left(1-\frac{x^2}{(2\pi)^2}\right)\left(1-\frac{x^2}{(3\pi)^2}\right)...\\
 	1&=C\\
 	&\Downarrow\\
-	\sin(x)&=x(1-\frac{x^2}{\pi^2})(1-\frac{x^2}{(2\pi)^2})(1-\frac{x^2}{(3\pi)^2})...
+	\sin(x)&=x\left(1-\frac{x^2}{\pi^2}\right)\left(1-\frac{x^2}{(2\pi)^2}\right)\left(1-\frac{x^2}{(3\pi)^2}\right)...
 \end{align}$$
 
 Es ergibt sich also Folgendes:
 
-$$x-\frac{x^3}{3!}+\frac{x^5}{5!}-...=x(1-\frac{x^2}{\pi^2})(1-\frac{x^2}{(2\pi)^2})(1-\frac{x^2}{(3\pi)^2})...$$
+$$x-\frac{x^3}{3!}+\frac{x^5}{5!}-...=x\left(1-\frac{x^2}{\pi^2}\right)\left(1-\frac{x^2}{(2\pi)^2}\right)\left(1-\frac{x^2}{(3\pi)^2}\right)...$$
 
 Wenn wir nun einen Koeffizientenvergleich für $x^3$ machen, erhalten wir:
 
@@ -211,7 +212,7 @@ $$\begin{align}
 
 ### Der allgemeine Satz von Taylor
 
-Will man Funktionen $f(x)$ an einer Stelle $x_0$, in der diese unendlich oft differenzierbar ist, als Polynom $p(x)$ aufschreiben, dann verschiebt man die Funktion zuerst zu $x=0$, bestimmt dort die Entwicklung und verschiebt zurück. Für $f(x)$ gilt dann:
+Will man Funktionen $f(x)$ an einer Stelle $x_0$, in der diese unendlich oft differenzierbar sind, als Polynom $p(x)$ aufschreiben, dann verschiebt man die Funktion zuerst zu $x=0$, bestimmt dort die Entwicklung und verschiebt zurück. Für $f(x)$ gilt dann:
 
 $$f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n$$
 

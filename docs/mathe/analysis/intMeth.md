@@ -35,7 +35,7 @@ Die Partialbruchzerlegung wird bei Funktionen $f(x)=\frac{P(x)}{Q(x)}$ angewandt
 
 ### Beispiel 
 
-Gesucht sei $\int\frac{1+x^3}{x^3-4x^2+4x}$ :
+Gesucht sei $\int\frac{1+x^3}{x^3-4x^2+4x}\,dx$ :
 
 1. Sowohl im Nenner als auch im Zähler haben wir $x^3\Rightarrow$ Polynomdivision: $(1+x^3):(x^3-4x^2+4x)=1+\frac{4x^2-4x+1}{x^3-4x^2+4x}$
 2. $x^3-4x^2+4x=x(x-2)^2$
@@ -81,7 +81,7 @@ Für die Gamma-Funktion $\Gamma(n)=\int_0^{\infty}t^{n-1}e^{-t}\,dt$ soll gelten
 
 $$\Gamma(n)=(n-1)!$$
 
-Mit folgender rekursiven Definition:
+Mit folgender rekursiver Definition:
 
 $$\Gamma(n)=(n-1)\Gamma(n-1)$$
 

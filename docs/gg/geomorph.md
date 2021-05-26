@@ -3,9 +3,11 @@
 **Geomorphologie** erklärt das aussehen der Landschaft durch **exogene** (_nicht_ vom Erdinneren) Kräfte.
 
 ## Verwitterung
+
 **Verwitterung**: alle Prozesse, die Steine u. Mineralien zerstören
 
 ### Physikalische/Mechanische Verwitterung
+
 Zerstört Steine _ohne_ chem. Veränderungen
 
 * Temperaturverwitterung: Ausdehnen und Zusammenziehen durch Temp-Änderungen, führt zu Spannungen und Rissen. Vor allem bei mit unterschied. Mineralien
@@ -26,6 +28,7 @@ Wasser und darin enthaltene Basen/Säuren lösen Steine auf. Kann mehrere hunder
 * chem.-biolog. Verwitterung: Pflanzen u. Tiere scheiden Huminsäuren aus, die Steine angreifen
 
 ## Abtragung und Akkumulation
+
 ### Allgemein
 
 * Abtragung entfernt/verlagert verwittertes Gestein vom Anstehungsort (z. B. durch Bergsturz, Steinschlag, Erosion, Abspülung, Wind (Deflation), oder Eis (Glazialerosion)).

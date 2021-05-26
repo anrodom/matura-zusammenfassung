@@ -1,5 +1,7 @@
 # Wetter und Klima (+Weltmeere) (S. 61-87, S. 103-108)
+
 ## Meteorologie und Klimatologie
+
 Die **Meteorologie** beschäftigt sich mit dem aktuellen Zustand und Prozesse der Atmosphäre, um das Wetter vorherzusagen. Das **Klima** und die **Klimatologie** befassen sich mit der langfristigen Zustand der Atmosphäre, sogenannten **Klimaelementen**:
 
  * Strahlung
@@ -21,7 +23,9 @@ Diese werden durch **Klimafaktoren** bestimmt. Sie sind abhängig von dem Ort:
  * Vegetation
 
 Regionen mit ähnlichem Klima werden in **Klimazonen** eingeteilt. Der Hauptunterschied zwischen Klima und Wetter ist, dass beim Klima auf langzeitliche Durchschnitte geachtet wird (d. h. es ändert sich nur langsam), während das Wetter von Tag zu Tag anders sein kann.
+
 ## Aufbau der Atmosphäre
+
 Die **Atmosphäre** ist die Lufthülle der Erde. Sie hat folgende Schichten (von Unten nach Oben):
 
  * **Troposphäre** (0 - 8km bei den Polen, 18km beim Äquator): Das Wetter findet hier statt, Temperaturen bis zu - 55&deg;C. Pro 100m nimmt die Temperatur um -0.65&deg;C ab.
@@ -38,6 +42,7 @@ Der **Normaldruck** auf der Erdoberfläche beträgt 1013 Hektopascal (hPa). Dies
 ![Bild seite 64]()
 
 ## Klimaelemente und Klima allgemein
+
 ![Bild Tabelle seite 65]()
 
  * **Strahlung**: Sonne bestrahlt die Erde mit 1370W/m² (sog. **Solarkonstante**). Auf der Erdoberfläche kommen aber nur 341W/m² an, weil die Atmosphäre rund die Hälfte absorbiert. Die Strahlung wird auch reflektiert. Das **Albedo** (Wert zwischen 0 und 1) gibt an, wieviel reflektiert wird. Die Erdoberfläche selbst reflektiert die kurzwellige ankommende Strahlung als langwellige zurück. Die langwellige Strahlung trifft auf dem Weg zum Weltall aber erneut auf die Atmosphäre, wo dann ein Teil abermals absorbiert wird. Auch durch die Verdunstung von Wasser auf der Erdoberfläche gelangt Wärme in die Atmosphäre.

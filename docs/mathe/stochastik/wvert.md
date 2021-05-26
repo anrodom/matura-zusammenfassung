@@ -72,7 +72,7 @@ $$\mu=\sqrt{V(X)}=\sqrt{n\cdot p\cdot q}$$
 
 #### Unendliche viele Werte
 
-> !Achtung: Immer noch Binomialverteilung! Unendliche Bäume, die nicht binomial verteilt sind mit Hilfe der Formeln in ["Endliche Folgen und Reihen"](../analysis/endlF&R.md).
+> !Achtung: Immer noch Binomialverteilung! Unendliche Bäume, die nicht binomial verteilt sind mit Hilfe der Formeln in [Endliche Folgen und Reihen](../analysis/endlF&R.md).
 
 
 Vorbemerkung:

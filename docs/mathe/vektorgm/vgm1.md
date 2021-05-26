@@ -1,7 +1,8 @@
 # Vektorgeometrie I
 
-Definition Vektor
-: Alle Pfeile mit gleicher Länge und Richtung sind ein Vektor $\vec{s}=\left(\begin{array}{c}x\\y\\z \end{array}\right)$: die Länge von $\vec{s}$ ist ein Mass für die Geschwindigkeit.
+## Definition Vektor
+
+Alle Pfeile mit gleicher Länge und Richtung sind ein Vektor $\vec{s}=\left(\begin{array}{c}x\\y\\z \end{array}\right)$: die Länge von $\vec{s}$ ist ein Mass für die Geschwindigkeit.
 
 ## Vektoraddition
 
@@ -18,6 +19,7 @@ Subtraktion
 > Oder bei $\vec{a}-\vec{b}$ einfach Pfeilspitzen verbinden mit Richtung gegen $\vec{a}$
 
 ## Multiplikation
+
 Aus der Multiplikation eines Vektors $\vec{a}$ mit einer Zahl $\lambda$ entsteht ein Vektor $\vec{b} = \lambda\vec{a}$ mit veränderter Länge und/oder entgegengesetzter Richtung.
 
 ## Betrag eines Vektors
@@ -27,6 +29,7 @@ Für den Betrag $|\vec{a}|$ eines Vektors $\vec{a}=\left(\begin{array}{c}a_1\\a_
 $$|\vec{a}|=\sqrt{a_1^2+a_2^2+a_3^2}$$
 
 ## Skalarprodukt
+
 Definition, damit folgende Gesetze gelten:
 
 
@@ -46,4 +49,5 @@ $$\vec{a}\cdot\vec{b}=|\vec{a}||\vec{b}|\cos(\alpha)$$
 Weiteres siehe [Skalar-, Vektor- und Spatprodukt](s-v-spProd.md)
 
 ## Kollineare Vektoren
+
 Zwei Vektoren $\vec{a}$ und $\vec{b}$ sind kollinear, wenn $\vec{b}=\lambda\vec{a}$ gilt.

@@ -24,7 +24,7 @@ $$\left(\begin{array}{c}P_x\\P_y\\P_z \end{array}\right)=\left(\begin{array}{c}a
 $$\left(\begin{array}{c}P_x\\P_y\\P_z \end{array}\right)=\left(\begin{array}{c}a_x\\a_y\neq0\\a_z \end{array}\right) + t\left(\begin{array}{c}b_x\\0\\b_z \end{array}\right)$$
 
 
-*  Schnittwinkel einer Gerade und einer Ebene wird in ["Die Ebene im Raum"](eImRaum.md) besprochen.
+*  Schnittwinkel einer Gerade und einer Ebene wird in [Die Ebene im Raum](eImRaum.md) besprochen.
 *  Schnittpunkte mit den xy-, yz- und xz-Ebenen werden Spurpunkte $G_1$, $G_2$ und $G_3$ genannt.
 
 ## Vorgehen zur Lage zweier Geraden
