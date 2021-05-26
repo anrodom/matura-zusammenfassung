@@ -85,7 +85,7 @@ def createPDF(md_files, final_file):
                 text = replaceText(text)
                 f.writelines(text)
                 f.write('\n')
-    a = f'pandoc -s --pdf-engine=pdflatex "{n}" --resource-path=.:docs/img:docs/nested/nested -o "{path}"'
+    a = f'pandoc -s --pdf-engine=pdflatex "{n}" --resource-path=.:docs/img -o "{path}"'
     print(a)
     os.system(a)
 
@@ -93,6 +93,7 @@ def replaceText(text):
     final = [preamble]
     string = "".join(text)
     string = re.sub(r"\$\$\\begin\{align\}.*?end\{align\}\$\$", replace, string, count=0, flags=re.DOTALL)
+    string = string.replace("../../", "../")
     for s in string.splitlines(True):
         final.append(s)
     return final
