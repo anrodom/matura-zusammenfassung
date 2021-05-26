@@ -16,6 +16,8 @@ header-includes:
 ---
 """
 
+subjects = ["geographie", "am", "mathematik", "physik"]
+
 def define_env(env):
     global nav
     nav = env.conf.get('nav')
@@ -108,4 +110,6 @@ def replace(obj):
 def links(obj):
     s = obj[0].split("]")[0]
     t = s[2:].replace(" ", "-").lower()
-    return s + "](#" + t + ")"
+    if t in subjects:
+        t += "-überblick"
+    return s + '](#"' + t + '")'
