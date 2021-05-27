@@ -85,8 +85,9 @@ $$\begin{align}
 Abschätzung für $\prod_{p\leq x}(1-\frac{1}{p})$ wobei $p$ prim ist:
 
 $$\begin{align}
-  \prod_{p\leq x}(1-\frac{1}{p})&=(1-\frac{1}{2})(1-\frac{1}{3})(1-\frac{1}{5})...(1-\frac{1}{p})\\
-  &=(1+\frac{1}{2}+\frac{1}{4}+...)(1+\frac{1}{3}+\frac{1}{9}+...)(1+\frac{1}{5}+\frac{1}{25}+...)...(1+\frac{1}{p}+\frac{1}{p^2}+...)\\
+  \prod_{p\leq x}\left(1-\frac{1}{p}\right)^{-1}&=\left(1-\frac{1}{2}\right)^{-1}\left(1-\frac{1}{3}\right)^{-1}\left(1-\frac{1}{5}\right)^{-1}...\left(1-\frac{1}{p}\right)^{-1}\\
+  &\Downarrow\;\left(\textrm{mit}\,s=\frac{a_1}{1-q}\right)\\
+  &=\left(1+\frac{1}{2}+\frac{1}{4}+...\right)\left(1+\frac{1}{3}+\frac{1}{9}+...\right)\left(1+\frac{1}{5}+\frac{1}{25}+...\right)...\left(1+\frac{1}{p}+\frac{1}{p^2}+...\right)\\
   &=1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+...+\frac{1}{p}+...+\frac{1}{x}...\textrm{Rest}\\
   \prod_{p\leq x}(1-\frac{1}{p})&\approx\frac{1}{\frac{1}{1}+\frac{1}{2}+...+\frac{1}{x}}
 \end{align}$$
