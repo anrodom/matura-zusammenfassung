@@ -67,8 +67,8 @@ $$(a+b)^n = \sum_{k=0}^{n}{n\choose k}a^kb^{n-k}$$
 ### e als Summe
 
 $$\begin{align}
-  e&=\lim_{n\to\infty}(1+\frac{1}{n})^n\\
-  &=\lim_{n\to\infty}\sum_{k=0}^{n}{n\choose k}(\frac{1}{n})^k1^{n-k}\\
+  e&=\lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n\\
+  &=\lim_{n\to\infty}\sum_{k=0}^{n}{n\choose k}\left(\frac{1}{n}\right)^k1^{n-k}\\
   &=\lim_{n\to\infty}\sum_{k=0}^{n}\frac{n(n-1)...(n-k+1)}{k!}\frac{1}{n^k}\\
   &=\sum_{k=0}^{\infty}\frac{1}{k!}
 \end{align}$$
@@ -79,8 +79,8 @@ Aus dem Vorherigen folgt:
 
 $$\begin{align}
   \frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}&<e=\frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}+\frac{1}{(n+1)!}+\frac{1}{(n+2)!}+...\\
-  \frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}&<e=\frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}+\frac{1}{n!}[\frac{1}{n+1}+\frac{1}{(n+1)(n+2)}+...]\\
-  \frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}&<e<\frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}+\frac{1}{n!}[\frac{1}{2}+\frac{1}{4}+...]\\
+  \frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}&<e=\frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}+\frac{1}{n!}\left[\frac{1}{n+1}+\frac{1}{(n+1)(n+2)}+...\right]\\
+  \frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}&<e<\frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}+\frac{1}{n!}\left[\frac{1}{2}+\frac{1}{4}+...\right]\\
   \frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}&<e<\frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}+\frac{1}{n!}[1]\\
   \frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}+\frac{0}{n!}&<e<\frac{1}{0!}+\frac{1}{1!}+...+\frac{1}{n!}+\frac{1}{n!}\\
 \end{align}$$

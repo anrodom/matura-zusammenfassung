@@ -60,9 +60,9 @@ $y=\ln(x)$:
 
 $$\begin{align}
   y'&=\lim_{\Delta x\to 0}\frac{\ln(x+\Delta x)-\ln(x)}{\Delta x}\\
-  &=\lim_{\Delta x\to 0}\frac{1}{\Delta x}\ln(\frac{x+\Delta x}{\Delta x})\\
-  &=\lim_{\Delta x\to 0}\ln[(\frac{x+\Delta x}{\Delta x})^{\frac{1}{\Delta x}}]\;\;(\textrm{Substitution:}\;n=\frac{x}{\Delta x})\\
-  &=\lim_{n\to\infty}\ln[((\frac{x+\Delta x}{\Delta x})^n)^{\frac{1}{x}}]\\
+  &=\lim_{\Delta x\to 0}\frac{1}{\Delta x}\ln\left(\frac{x+\Delta x}{\Delta x}\right)\\
+  &=\lim_{\Delta x\to 0}\ln\left[\left(\frac{x+\Delta x}{\Delta x}\right)^{\frac{1}{\Delta x}}\right]\;\;\left(\textrm{Substitution:}\;n=\frac{x}{\Delta x}\right)\\
+  &=\lim_{n\to\infty}\ln\left[\left(\left(\frac{x+\Delta x}{\Delta x}\right)^n\right)^{\frac{1}{x}}\right]\\
   &=\frac{1}{x}\ln(e)\\
   &=\frac{1}{x}
 \end{align}$$
@@ -115,7 +115,7 @@ $$(f'(x_0)=0|f(x_0))$$
 
 ## Schnittwinkel zweier Funktionen
 
-$$\tan(\alpha)=|\frac{y_2'-y_1'}{1+y_1'y_2'}|$$
+$$\tan(\alpha)=\left|\frac{y_2'-y_1'}{1+y_1'y_2'}\r|$$
 
 ## Tangente t durch P an Funktion f(x)
 

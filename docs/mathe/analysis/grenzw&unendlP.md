@@ -28,10 +28,10 @@ Oder noch kürzer:
 1.  $$\lim_{n\to\infty}\frac{a^n}{an}=\infty$$
 
 2.  $$\begin{align}
-    \lim_{n\to\infty}\frac{an+b}{cn+d}&=\lim_{n\to\infty}\frac{n(a+\frac{b}{n})}{n(c+\frac{d}{n})}\\
+    \lim_{n\to\infty}\frac{an+b}{cn+d}&=\lim_{n\to\infty}\frac{n\left(a+\frac{b}{n}\right)}{n\left(c+\frac{d}{n}\right)}\\
     &=\lim_{n\to\infty}\frac{a+\frac{b}{n}}{c+\frac{d}{n}}\\
     &=\frac{a}{c}
-  \end{align}$$
+    \end{align}$$
 
 ### Folgen und Reihen
 
@@ -59,14 +59,14 @@ Zweite Art:
 
 $$\begin{align}
   s &= \lim_{n\to\infty}s_n\\
-  &= \lim_{n\to\infty}(a_1\frac{1-q^n}{1-q})\\
+  &= \lim_{n\to\infty}\left(a_1\frac{1-q^n}{1-q}\right)\\
   &= \frac{a_1}{1-q}\;\;(\textrm{Wenn}\,|q|<1)
 \end{align}$$
 
 ### Grenzwertsätze
 
 1.  $$\lim_{n\to\infty}(a_n\cdot b_n)=\lim_{n\to\infty}(a_n)\cdot\lim_{n\to\infty}(b_n)=a\cdot b$$
-2.  $$\lim_{n\to\infty}(\frac{a_n}{b_n})=\frac{\lim_{n\to\infty}(a_n)}{\lim_{n\to\infty}(b_n)}=\frac{a}{b}$$
+2.  $$\lim_{n\to\infty}\left(\frac{a_n}{b_n}\right)=\frac{\lim_{n\to\infty}(a_n)}{\lim_{n\to\infty}(b_n)}=\frac{a}{b}$$
 3.  $$\lim_{n\to\infty}(a_n\pm b_n)=\lim_{n\to\infty}(a_n)\pm\lim_{n\to\infty}(b_n)=a\pm b$$
 4.  $$\lim_{n\to\infty}[(a_n)^r]=[\lim_{n\to\infty}(a_n)]^r=a^r$$
 5.  $$\lim_{n\to\infty}(r\cdot a_n)=r\cdot\lim_{n\to\infty}(a_n)=r\cdot a$$
@@ -88,9 +88,9 @@ $$s=\sum_{k=0}^{\infty}\frac{1}{k}=\frac{1}{1}+\frac{1}{2}+\frac{1}{3}+\frac{1}{
 Um den Grenzwert zu bestimmen, verwendet man wieder eine Idee (Gruppieren), die bei vielen Beweisen verwendet wird:
 
 $$\begin{align}
-  s&=\frac{1}{1}+\frac{1}{2}+(\frac{1}{3}+\frac{1}{4})+(\frac{1}{5}+\frac{1}{6}+\frac{1}{7}+\frac{1}{8})+...\\
-  &\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;>\frac{1}{2}\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;>\frac{1}{2}\\
-  s&>\lim_{n\to\infty}(1+n\cdot\frac{1}{2})=\infty
+  s&=\frac{1}{1}+\frac{1}{2}+\left(\frac{1}{3}+\frac{1}{4}\right)+\left(\frac{1}{5}+\frac{1}{6}+\frac{1}{7}+\frac{1}{8}\right)+...\\
+  &\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;>\frac{1}{2}\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\,\:>\frac{1}{2}\\
+  s&>\lim_{n\to\infty}\left(1+n\cdot\frac{1}{2}\righ)=\infty
 \end{align}$$
 
 ## Vollständige Induktion

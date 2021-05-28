@@ -19,7 +19,7 @@ $$\begin{align}
 
 $$\begin{align}
   &\textrm{I.}\:\log_{b}(m\cdot n)=\log_{b}(m)+\log_{b}(n)\\
-  &\textrm{II.}\:\log_{b}(\frac{m}{n})=\log_{b}(m)-\log_{b}(n)\\
+  &\textrm{II.}\:\log_{b}\left(\frac{m}{n}\r)=\log_{b}(m)-\log_{b}(n)\\
   &\textrm{III.}\:\log_{b}(m^n)=n\cdot\log_{b}(m)\\
   &\textrm{IV.}\:\log_{b}(c)=\frac{\log_{a}(c)}{\log_{a}(b)}\\
 \end{align}$$

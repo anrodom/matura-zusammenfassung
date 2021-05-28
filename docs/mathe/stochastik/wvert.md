@@ -81,7 +81,7 @@ $$1+2x*3x^2+4x^3+...=\frac{1}{(1-x)^2}$$
 
 Beispiel: Wie oft muss gewürfelt werfen, bis zum 1ten Mal eine 5 kommt?
 
-$$E(X)=\frac{1}{6}[1+2\cdot\frac{5}{6}+3\cdot(\frac{5}{6})^2+...]=\frac{1}{6}\cdot\frac{1}{(1-\frac{5}{6})^2}=6$$
+$$E(X)=\frac{1}{6}\left[1+2\cdot\frac{5}{6}+3\cdot(\frac{5}{6})^2+...\right]=\frac{1}{6}\cdot\frac{1}{\left(1-\frac{5}{6}\right)^2}=6$$
 
 Allgemein:
 
@@ -93,7 +93,7 @@ Die Normalverteilung ist im Grunde eine Annäherung an die Binomialverteilung, u
 
 Als Funktion wird dabei die Dichtefunktion $\varphi(x)$ von Gauss:
 
-$$\varphi(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}$$
+$$\varphi(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}$$
 
 Wahrscheinlichkeiten $p(x)$ sind also die Flächen unter dem Integral, weswegen sie also mit dem Integral der Dichtefunktion berechnet werden.
 
@@ -163,8 +163,8 @@ Falls ungefähre $p$ und $q$ nicht bekannt sind, müssen wir eine zusätzliche A
 
 $$\begin{align}
   p(1-p)&=p-p^2\\
-  &=\frac{1}{4}-(\frac{1}{4}-p+p^2)\\
-  &=\frac{1}{4}-(\frac{1}{2}-p)^2\leq\frac{1}{4}
+  &=\frac{1}{4}-\left(\frac{1}{4}-p+p^2\right)\\
+  &=\frac{1}{4}-\left(\frac{1}{2}-p\right)^2\leq\frac{1}{4}
 \end{align}$$
 
 Wir verwenden also $pq\leq\frac{1}{4}$. Würde man wissen, dass sich $p$ bei etwa 10% befindet hätten wir $pq\approx 0.09$.
@@ -173,6 +173,7 @@ Aus der Gleichung entsteht nun:
 
 $$\begin{align}
   \sqrt{\frac{1/4}{n}}&\leq\frac{g}{\lambda}\\
-  \frac{1}{4n}&\leq(\frac{g}{\lambda})^2\\
+  \frac{1}{4n}&\leq\left(\frac{g}{\lambda}\right)^2\\
   n&\geq\frac{1}{4(\frac{g}{\lambda})^2}
 \end{align}$$
+

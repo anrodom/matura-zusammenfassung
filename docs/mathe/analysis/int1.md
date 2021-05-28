@@ -129,8 +129,8 @@ Idee mit $n$ Dreiecken.
 
 $$\begin{align}
   l&=\lim_{\Delta x\to 0}\sum_{i}\sqrt{\Delta x^2+\Delta y^2}\\
-  &=\lim_{\Delta x\to 0}\sum_{i}\sqrt{\Delta x^2(1+(\frac{\Delta y}{\Delta x})^2)}\\
-  &=\lim_{\Delta x\to 0}\sum_{i}\sqrt{1+(\frac{\Delta y}{\Delta x})^2}\Delta x\\
+  &=\lim_{\Delta x\to 0}\sum_{i}\sqrt{\Delta x^2\left(1+\left(\frac{\Delta y}{\Delta x}\right)^2\right)}\\
+  &=\lim_{\Delta x\to 0}\sum_{i}\sqrt{1+\left(\frac{\Delta y}{\Delta x}\right)^2}\Delta x\\
   &=\int_a^b \sqrt{1+(y')^2}\,dx
 \end{align}$$
 
@@ -142,6 +142,7 @@ Idee mit Mantelfläche $M=\pi(r_1+r_2)s$ der Zylinderscheiben mit Dicke $s$:
 
 $$\begin{align}
   M&=\lim_{\Delta x\to 0}\sum_i \pi(f(x)+f(x+\Delta x))\Delta s\\
-  &=\lim_{\Delta x\to 0}\pi\sum_i (f(x)+f(x+\Delta x))\sqrt{1+(\frac{\Delta y}{\Delta x})^2}\Delta x\\
+  &=\lim_{\Delta x\to 0}\pi\sum_i (f(x)+f(x+\Delta x))\sqrt{1+\left(\frac{\Delta y}{\Delta x}\right)^2}\Delta x\\
   &=2\pi\int_a^b y\sqrt{1+(y')^2}\,dx
 \end{align}$$
+

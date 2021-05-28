@@ -89,7 +89,7 @@ $$\begin{align}
   &\Downarrow\;\left(\textrm{mit}\,s=\frac{a_1}{1-q}\right)\\
   &=\left(1+\frac{1}{2}+\frac{1}{4}+...\right)\left(1+\frac{1}{3}+\frac{1}{9}+...\right)\left(1+\frac{1}{5}+\frac{1}{25}+...\right)...\left(1+\frac{1}{p}+\frac{1}{p^2}+...\right)\\
   &=1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+...+\frac{1}{p}+...+\frac{1}{x}...\textrm{Rest}\\
-  \prod_{p\leq x}(1-\frac{1}{p})&\approx\frac{1}{\frac{1}{1}+\frac{1}{2}+...+\frac{1}{x}}
+  \prod_{p\leq x}\left(1-\frac{1}{p}\right)&\approx\frac{1}{\frac{1}{1}+\frac{1}{2}+...+\frac{1}{x}}
 \end{align}$$
 
 Beweis für die Anzahl Primzahlen kleiner/gleich $x$ oder $\pi(x)$ mit der Wahrscheinlichkeit p(x), dass eine Zahl zwischen 1 und $x$ prim ist:
@@ -97,7 +97,7 @@ Beweis für die Anzahl Primzahlen kleiner/gleich $x$ oder $\pi(x)$ mit der Wahrs
 $$\begin{align}
   p(x)&=\frac{\pi(x)}{x}\\
   \pi(x)&=xp(x)\\
-  &\approx x[(1-\frac{1}{2})(1-\frac{1}{3})(1-\frac{1}{5})...(1-\frac{1}{p})]\\
-  &\approx x[\frac{1}{\frac{1}{1}+\frac{1}{2}+...+\frac{1}{x}}] \approx x[\frac{1}{\ln(x)}]\\
+  &\approx x\left[\left(1-\frac{1}{2}\right)\left(1-\frac{1}{3}\right)\left(1-\frac{1}{5}\right)...\left(1-\frac{1}{p}\right)\right]\\
+  &\approx x\left[\frac{1}{\frac{1}{1}+\frac{1}{2}+...+\frac{1}{x}}\right] \approx x\left[\frac{1}{\ln(x)}\right]\\
   p(x)&\approx\frac{x}{\ln(x)}
 \end{align}$$

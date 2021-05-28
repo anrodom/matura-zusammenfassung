@@ -97,7 +97,7 @@ Gibt es andere Funktion $g(x)$ ausser $f(x)=C\cdot e^{kx}$ für die DG $y'=y\cdo
 Für die Ableitung des Quotienten gilt:
 
 $$\begin{align}
-	\left(\frac{f(x}{g(x}\right)'&=\frac{f'(x)g(x)-f(x)g'(x)}{g^2(x)}\\
+	\left(\frac{f(x)}{g(x)}\right)'&=\frac{f'(x)g(x)-f(x)g'(x)}{g^2(x)}\\
 	&=\frac{kf(x)g(x)-kf(x)g(x)}{g^2(x)}\\
 	&=0
 \end{align}$$
