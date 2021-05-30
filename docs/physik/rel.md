@@ -70,7 +70,7 @@ $$\begin{align}
 
 #### Geschwindigkeitsaddition
 
-Ein Objekt hat eine Geschwindigkeit $u'$ in einem Inertialsystem$I'$  mit der Geschwindigkeit $v$. Für die Geschwindigkeit $u$ in $I$ gilt:
+Ein Objekt hat eine Geschwindigkeit $u'$ in einem Inertialsystem $I'$, welches sich mit der Geschwindigkeit $v$ bewegt. Für die Geschwindigkeit $u$ aus der Perspektive von $I$ gilt:
 
 $$u=\frac{u'+v}{1+\frac{u'\cdot v}{c^2}}$$
 
@@ -82,7 +82,7 @@ $$\frac{v}{c^2}\cdot \Delta x'$$
 
 ### Lorentzkraft
 
-Die Lorentzkraft $F_L$ ist ein relativistischer Effekt. Für eine sich bewegende Ladung $q$ ist ein stromführender Leiter so verkürzt, dass der Leiter geladen ist aus ihrem Inertialsystem.
+Die Lorentzkraft $F_L$ ist ein relativistischer Effekt. Für eine sich bewegende Ladung $q$ ist ein stromführender Leiter so verkürzt, dass der Leiter aus ihrem Inertialsystem geladen ist.
 
 ### Masse und Energie
 
@@ -127,7 +127,7 @@ Weil Uhren auch als Frequenzen angesehen werden können, gilt auch hier:
 
 $$f_{\textrm{oben}}\approx f_{\textrm{oben}}\cdot (1-\frac{g\cdot h}{c})$$
 
-Uhren im Gravitationsfeld sind anders als bei der SRT nicht symmetrisch, d. h., dass die Frequenz der Uhr klar ist und nicht vom Inertialsystem abgehängt. Das liegt daran, dass auch die Richtung des Gravitationsfeldes immer klar ist.
+Uhren im Gravitationsfeld sind anders als bei der SRT nicht symmetrisch, d. h., dass die Frequenz der Uhr klar ist und nicht vom Inertialsystem abhängt. Das liegt daran, dass auch die Richtung des Gravitationsfeldes immer klar ist.
 
 ### Raumkrümmung
 
