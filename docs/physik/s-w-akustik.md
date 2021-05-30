@@ -88,7 +88,7 @@ Wenn Wellen aufeinander treffen, so addieren sich ihre Auslenkungen inklusive Vo
 
 Schwebungen sind Überlagerung von zwei Schwingungen mit unterschiedlichen Frequenzen $f_1$ und $f_2$. Es entsteht eine schnelle Schwingung mit $\frac{f_1+f_2}{2}$ mit einer zeitabhängige Amplitude $\frac{f_1-f_2}{2}$.
 
-![Skizze]()
+![Schwebungen](../img/s-w1.png)
 
 #### Interferenz
 
@@ -98,7 +98,7 @@ Wenn zwei Wellen mit gleichem $\lambda$ aufeinandertreffen und um $n\cdot\lambda
 
 Bei der Überlagerung von zwei Wellen mit punktförmigen Quellen entstehen Interferenzmuster.
 
-![Skizze]()
+![Überlagerung von 2 Wellen](../img/s-w2.png)
 
 Für die Winkel der Maxima $\alpha_{\textrm{max}}$ gilt:
 
@@ -108,9 +108,9 @@ Bei Gittern mit $N$ Spalten ist die totale Intensität proportional zu $N^2$.
 
 #### Doppelspalt
 
-Wenn Licht / Wasser auf einen Doppelspalt treffen, entsteht folgendes Interferenzmuster:
+Wenn Licht / Wasser auf einen Doppelspalt trifft, entsteht folgendes Interferenzmuster:
 
-![Skizze]()
+![Doppelspalt](../img/s-w3.png)
 
 Für die Positionen an der Wand der Maxima gilt:
 
@@ -119,7 +119,7 @@ $$x_{\textrm{max}}=D\cdot\tan(\alpha_{\textrm{max}})\approx D\cdot\sin(\alpha_{\
 Daraus folgen:
 
 $$\begin{align}
-	x_{\textrm{max}}&\approx D\cdot m\cdot\frac{\lambda}{d}\\
+	x_{\textrm{max}}&\approx D\cdot n\cdot\frac{\lambda}{d}\\
 	\Delta x_{\textrm{max}}&\approx D\cdot\frac{\lambda}{d}
 \end{align}$$
 
@@ -131,7 +131,7 @@ $$\sin(\alpha_{\textrm{min}})=\frac{n\cdot\lambda}{s}\;(n\not=0)$$
 
 #### Farben dünner Schichten
 
-![Skizze]()
+![Farben dünner Schichten](../img/s-w5.png)
 
 Auch hier entstehen Interferenzmuster, aufgrund der Verschiebung durch die Reflexionen. 
 
@@ -148,7 +148,7 @@ $$d=\frac{\lambda_0}{4n_2}$$
 
 ### Das Huygenssche Prinzip
 
-![Skizze]()
+![Huygen](../img/s-w4.png)
 
 Jeder Punkt einer Wellenfront (Punkte mit gleicher Schwingungsphase) ist Ausgangspunkt (Punktquelle) einer neuen kugelförmigen Welle.
 
@@ -236,6 +236,6 @@ $$\begin{align}
 
 Für den Machkegel gilt:
 
-![Skizze]()
+![Machkegel](../img/s-w6.png)
 
 $$\sin(\alpha)=\frac{c}{v}$$

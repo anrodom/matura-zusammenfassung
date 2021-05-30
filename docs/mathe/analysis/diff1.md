@@ -115,7 +115,7 @@ $$(f'(x_0)=0|f(x_0))$$
 
 ## Schnittwinkel zweier Funktionen
 
-$$\tan(\alpha)=\left|\frac{y_2'-y_1'}{1+y_1'y_2'}\r|$$
+$$\tan(\alpha)=\left|\frac{y_2'-y_1'}{1+y_1'y_2'}\right|$$
 
 ## Tangente t durch P an Funktion f(x)
 

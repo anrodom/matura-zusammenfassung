@@ -48,7 +48,7 @@ $$\lambda=\frac{h}{m\cdot v}=\frac{h}{\sqrt{2m\cdot E_{kin}}}$$
 
 $$\lambda=\frac{h}{\sqrt{2m\cdot e\cdot U}}$$
 
-[Skizze]
+![Beugung am Graphit](../img/quantenp1.png)
 
 $$n\cdot\lambda=2d\cdot \sin(\alpha)$$
 
@@ -62,8 +62,6 @@ $$\sin(u)=0.01$$
 - Sowohl deBroglie-Längen als auch die Unschärferelation würden die klassische Physik (Instabilität) "retten"
 
 ### Die Unschärferelation für Ort und Impuls
-
-[Skizze]
 
 $$\Delta x\cdot \Delta p_x\geq h$$
 

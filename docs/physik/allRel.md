@@ -1,3 +1,0 @@
-# Allgemeine Relativitätstheorie
-
-...

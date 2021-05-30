@@ -2,14 +2,11 @@
 
 ## Der Atomkern
 
-Ein Atomkern besteht aus Protonen und Neutronen. Die Protonen sind positiv geladen und
-Neutronen haben keine Ladung, d.h. sie sind elektrisch neutral. Protonen und Neutronen werden als Nukleonen bezeichnet. Ein Atomkern wird mit dem Symbol $^A_Z X$ charakterisiert, wobei $X$ der Stoff ist, $A$ die Nukleonenzahl und $Z$ die Ordnungszahl. Für die Neutronenzahl $N$ gilt demnach $N=A-Z$.
+Ein Atomkern besteht aus Protonen und Neutronen. Die Protonen sind positiv geladen und Neutronen haben keine Ladung, d. h. sie sind elektrisch neutral. Protonen und Neutronen werden als Nukleonen bezeichnet. Ein Atomkern wird mit dem Symbol $^A_Z X$ charakterisiert, wobei $X$ der Stoff ist, $A$ die Nukleonenzahl und $Z$ die Ordnungszahl. Für die Neutronenzahl $N$ gilt demnach $N=A-Z$.
 
 ## Die Kernkraft und die Stabilität der Atomkerne
 
-Im Atomkern besteht ein Stabilitätsproblem, weil die Protonen sich gegenseitig elektrisch
-abstossen. Die Atomkerne müssen also durch eine Kraft zusammengehalten werden, welche
-nicht elektrischer Natur ist. Diese Kraft nennt man Kernkraft oder starke Wechselwirkung.
+Im Atomkern besteht ein Stabilitätsproblem, weil die Protonen sich gegenseitig elektrisch abstossen. Die Atomkerne müssen also durch eine Kraft zusammengehalten werden, welche nicht elektrischer Natur ist. Diese Kraft nennt man Kernkraft oder starke Wechselwirkung.
 
 Atomkerne sind leichter als die Summe ihrer Bestandteile. Es herrscht also ein Massendefekt $\Delta m$. Wenn man Kerne in ihre Bestandteile zerlegt, so muss man Arbeit verrichten, um die Kernkraft zu überwinden. Der Massendefekt entspricht also der Bindungsenergie $E_B$ des Kerns nach Einstein:
 
@@ -23,12 +20,9 @@ Für die Bindungsenergie:
 
 $$E_B = [ Z\cdot m_P + (A – Z)\cdot m_N – m(A,\;Z) ]\cdot c^2$$
 
-Als Mass für die Stabilität von Atomkernen kann die Bindungsenergie pro Nukleon betrachtet
-werden: Diese entspricht der Arbeit, welche erforderlich ist, um ein einziges Nukleon aus dem
-Kernverband zu lösen. Je grösser die Bindungsenergie pro Nukleon ist, um so stabiler ist ein
-Kern! Wichtiger Graph:
+Als Mass für die Stabilität von Atomkernen kann die Bindungsenergie pro Nukleon betrachtet werden: Diese entspricht der Arbeit, welche erforderlich ist, um ein einziges Nukleon aus dem Kernverband zu lösen. Je grösser die Bindungsenergie pro Nukleon ist, um so stabiler ist ein Kern! Wichtiger Graph:
 
-![Skizze]()
+![Bindungsenergie pro Nukleon](../img/kernp1.png)
 
 ## Radioaktivität
 

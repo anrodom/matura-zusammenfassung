@@ -18,6 +18,9 @@ header-includes:
 
 subjects = ["geographie", "am", "mathematik", "physik"]
 
+up=u"ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ"
+lo=u"abcdefghijklmnopqrstuvwxyzäöü"
+
 def define_env(env):
     global nav
     nav = env.conf.get('nav')
@@ -74,6 +77,8 @@ def createPDF(md_files, final_file):
         path += ".pdf"
         if t:
             for md_file_rel in md_files:
+                if "kurz-" in md_file_rel:
+                    continue
                 md_file = "docs/" + md_file_rel
                 with open(md_file, "r") as m:
                     text = m.readlines()
@@ -81,6 +86,8 @@ def createPDF(md_files, final_file):
                     f.writelines(text)
                     f.write('\n')
         else:
+            if "kurz-" in md_files:
+                return
             md_file = "docs/" + md_files
             with open(md_file, "r") as m:
                 text = m.readlines()
@@ -101,6 +108,7 @@ def replaceText(text):
     string = re.sub(r"\s\[.*?\]\(.*?\)", links, string)
     for s in string.splitlines(True):
         final.append(s)
+    # print(string)
     return final
 
 def replace(obj):
@@ -109,7 +117,14 @@ def replace(obj):
 
 def links(obj):
     s = obj[0].split("]")[0]
-    t = s[2:].replace(" ", "-").lower().replace(",", "").replace("(", "").replace(")", "").replace("|", "")
-    if t in subjects:
-        t += "-überblick"
-    return s + '](#' + t + ')'
+    t = s[2:].replace(" ", "-").replace(",", "").replace("(", "").replace(")", "").replace("|", "")
+    text = ""
+    for i,let in enumerate(t):
+        ind = up.find(let)
+        if ind > -1:
+            text += lo[ind]
+        else:
+            text += let
+    if text in subjects:
+        text += "-überblick"
+    return s + "](#" + text + ")"

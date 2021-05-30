@@ -4,6 +4,7 @@ nav:
     - Home: index.md
     - Mathematik:
       - Stoffplan: mathe/mathematik.md
+      - Kurzzusammenfassung Mathematik: mathe/kurz-mathe.md
       - Vektorgeometrie:
         - Vektorgeometrie I: mathe/vektorgm/vgm1.md
         - Skalar-, Vektor- und Spatprodukt: mathe/vektorgm/s-v-spProd.md
@@ -27,14 +28,13 @@ nav:
     - Physik:
       - Stoffplan: physik/physik.md
       - Mechanik: physik/mechanik.md
-      - Hydrostatik|Aeorostatik: physik/hydro-aeors.md
+      - Hydrostatik und Aeorostatik: physik/hydro-aeors.md
       - Wärme: physik/wärme.md
       - Elektrizität: physik/elek.md
       - Magnetismus: physik/mag.md
       - Kernphysik: physik/kernp.md
       - Schwingungen und Wellen, Akustik: physik/s-w-akustik.md
-      - Spezielle Relativitätstheorie: physik/spRel.md
-      - Allgemeine Relativitätstheorie: physik/allRel.md
+      - Relativitätstheorie: physik/rel.md
       - Quantenphysik: physik/quantenp.md
       - Physik mit Differential- und Integralrechnung: physik/diffint.md
     - AM:

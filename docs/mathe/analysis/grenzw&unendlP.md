@@ -90,7 +90,7 @@ Um den Grenzwert zu bestimmen, verwendet man wieder eine Idee (Gruppieren), die 
 $$\begin{align}
   s&=\frac{1}{1}+\frac{1}{2}+\left(\frac{1}{3}+\frac{1}{4}\right)+\left(\frac{1}{5}+\frac{1}{6}+\frac{1}{7}+\frac{1}{8}\right)+...\\
   &\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;>\frac{1}{2}\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\,\:>\frac{1}{2}\\
-  s&>\lim_{n\to\infty}\left(1+n\cdot\frac{1}{2}\righ)=\infty
+  s&>\lim_{n\to\infty}\left(1+n\cdot\frac{1}{2}\right)=\infty
 \end{align}$$
 
 ## Vollständige Induktion

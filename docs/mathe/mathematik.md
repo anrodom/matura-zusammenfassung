@@ -1,6 +1,7 @@
 # Mathematik-Überblick
 Folgende Themengebiete sind Stoff:
 
+- [Kurzzusammenfassung Mathematik](kurz-mathe.md)
 - Vektorgeometrie
     - [Vektorgeometrie I](vektorgm/vgm1.md)
     - [Skalar-, Vektor- und Spatprodukt](vektorgm/s-v-spProd.md)
