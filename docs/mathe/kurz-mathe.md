@@ -296,7 +296,7 @@ $$\lim_{x\rightarrow a}\frac{f(x)}{g(x)}=\lim_{x\rightarrow a}\frac{f'(x)}{g'(x)
   
 - Bedingte Wahrscheinlichkeiten:
   - $p(A|B)=\frac{|A\cap B|}{|B|}=\frac{p(A\wedge B)}{p(B)}$.
-  - $p(A\wedge B)=p(B\and A)\Rightarrow p(A|B)p(B)=p(B|A)p(A)$.
+  - $p(A\wedge B)=p(B\wedge A)\Rightarrow p(A|B)p(B)=p(B|A)p(A)$.
   - Die Ereignisse $A,B$ sind unabhängig, wenn $p(A|B)=p(A)$ oder $p(A\wedge B)=p(A)p(B)$.
   - $p(A)$ ist die Wahrscheinlichkeit, dass $A$ eintritt.
     $p(A\wedge B)$ ist die Wahrscheinlichkeit, dass $B$ und dann $A$ eintritt.
