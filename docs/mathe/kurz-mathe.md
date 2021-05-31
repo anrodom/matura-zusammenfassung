@@ -114,9 +114,9 @@ $$\forall \varepsilon>0 \; \exists n_{0}:|a-a_{n}|<\varepsilon \; \forall n\geq 
 ### Theorie
 
 - Die Funktion $f$ ist an der Stelle $s$ **stetig**, falls
-$$\lim_{x\rightarrow s^+}f(x)=\lim_{x\rightarrow s^-}f(x)=f(s),$$
+  $$\lim_{x\rightarrow s^+}f(x)=\lim_{x\rightarrow s^-}f(x)=f(s),$$
   kurz
-$$\lim_{x\rightarrow s}f(x)=f(s)$$
+  $$\lim_{x\rightarrow s}f(x)=f(s)$$
   gilt.
 - Die Funktion $f$ ist an der Stelle $s$ **differenzierbar**, falls $\frac{d f}{d x}$ existiert.
 - Differenzierbar $\Rightarrow$ Stetig.
@@ -157,6 +157,7 @@ $$\lim_{x\rightarrow s}f(x)=f(s)$$
 ### Theorie
 
 - Differentialquotient:
+
 $$\newcommand{\d}{\text{d}} \\\frac{\d y}{\d x}=\lim_{\Delta x\rightarrow0}\frac{f(x+\Delta x)-f(x)}{\Delta x}.$$
 
 ### Techniken
