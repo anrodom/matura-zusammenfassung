@@ -123,5 +123,5 @@ $$\begin{align}
 
 #### Kombination
 
-Bei Kombinationen von Parallel- und Serienschaltung, rechnet man in Zwischengruppen.
+Bei Kombinationen von Parallel- und Serienschaltung, rechnet man in Untergruppen.
 

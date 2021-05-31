@@ -35,7 +35,7 @@ $$a_{n+1}=a_n+d$$
 
 #### Explizit
 
-$$a_{n+1}=a_1 + (n+1)\cdot d$$
+$$a_{n}=a_1 + (n+1)\cdot d$$
 
 ### Arithmetische Reihe
 
@@ -61,7 +61,7 @@ $$a_{n+1}=a_n\cdot q$$
 
 #### Explizit
 
-$$a_{n+1}=a_1\cdot q^{n-1}$$
+$$a_{n}=a_1\cdot q^{n-1}$$
 
 ### Geometrische Reihe
 

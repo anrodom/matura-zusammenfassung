@@ -28,7 +28,7 @@ E(Y)&=1\cdot{n\choose 0}p^{(n+1)}+2\cdot{n\choose 1}p^{(n+1)}+3\cdot{n\choose 2}
 
 ### Varianz / Standardabweichung
 
-Beim Vergleichen zweier Zufallsgrössen können die Erwartungswerte gleich sein, aber die Streuung / Varianz unterscheidet sie. Für die Varianz einer Zufallsgrösse verwenden wir $V(X)$. Sie berechnet sich wie folgt:
+Beim Vergleichen zweier Zufallsgrössen $X$ und $Y$ können die Erwartungswerte $E(X)$ und $E(Y)$ gleich sein, die Streuung / Varianz sich aber unterscheiden. Für die Varianz einer Zufallsgrösse verwenden wir $V(X)$. Sie berechnet sich wie folgt:
 
 $$V(X)=\sum_{k=1}^{n}p(X = x_k)\cdot(x_k-\mu)^2$$
 
@@ -77,7 +77,7 @@ $$\mu=\sqrt{V(X)}=\sqrt{n\cdot p\cdot q}$$
 
 Vorbemerkung:
 
-$$1+2x*3x^2+4x^3+...=\frac{1}{(1-x)^2}$$
+$$1+2x+3x^2+4x^3+...=\frac{1}{(1-x)^2}$$
 
 Beispiel: Wie oft muss gewürfelt werfen, bis zum 1ten Mal eine 5 kommt?
 
