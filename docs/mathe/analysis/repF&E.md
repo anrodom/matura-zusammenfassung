@@ -96,8 +96,9 @@ $\lim_{x\to 0}\frac{\cos(x)-1}{x}$
 
 $$\begin{align}
   \lim_{x\to 0}\frac{\cos(x)-1}{x}&=\lim_{z\to 0}\frac{\cos(2z)-1}{2z}\\
-  &=\lim_{z\to 0}\frac{\cos^2(z)+\sin^2(z)-1}{2z}\\
+  &=\lim_{z\to 0}\frac{1-2\sin^2(z)-1}{2z}\\
   &=\lim_{z\to 0}\frac{-2\sin^2(z)}{2z}\\
   &=\lim_{z\to 0}\frac{\sin(z)}{z}\cdot\sin(z)\\
   &=0
 \end{align}$$
+

@@ -176,6 +176,7 @@ $$\newcommand{\d}{\text{d}} \\\frac{\d y}{\d x}=\lim_{\Delta x\rightarrow0}\frac
     	- $\d x\d y +a\d x=a\d x$
     	- $\d x^{2}-ax+b\d y=-ax$
 - **Regeln von De L'Hôpital**: Für zwei Funktionen $f(x),g(x)$ gilt
+
 $$\lim_{x\rightarrow a}\frac{f(x)}{g(x)}=\lim_{x\rightarrow a}\frac{f'(x)}{g'(x)},$$
 
 ​        wenn $f(a)=g(a)=0$ (Regel 1) oder $f(a)=g(a)\rightarrow\pm\infty$ (Regel 2).
