@@ -115,7 +115,7 @@ $$\begin{align}
 Bei einer Parallelschaltung ist die Spannung überall gleich. Die anfängliche Stromstärke ist die Summe aller einzelnen Stromstärken. Für den Widerstand gilt hingegen:
 
 $$\begin{align}
-	\frac{1}{R_{\textrm{tot}}}&=\sum R_i\\
+	\frac{1}{R_{\textrm{tot}}}&=\sum \frac{1}{R_i}\\
 	I_{\textrm{tot}}&=\sum I_i\\
 	&=U_B\cdot \sum \frac{1}{R_i}\\
 	&=\frac{U_B}{R_{\textrm{tot}}}

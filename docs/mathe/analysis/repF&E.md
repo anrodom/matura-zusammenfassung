@@ -102,3 +102,7 @@ $$\begin{align}
   &=0
 \end{align}$$
 
+
+
+Alternativ mit De L'Hospital siehe [Differentialrechnung II](./diff2.md)
+
