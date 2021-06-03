@@ -30,7 +30,7 @@ Das Spurendreieck (Dreieck aus den Schnittpunkten mit den Achsen) kann mit Achse
 $$\begin{align}
   Ax+By+Cz &= D\\
   \frac{x}{D/A} + \frac{y}{D/B} + \frac{z}{D/C} &=1\\
-  \frac{x}{a} + \frac{x}{b} + \frac{x}{c} &= 1
+  \frac{x}{a} + \frac{y}{b} + \frac{z}{c} &= 1
 \end{align}$$
 
 
