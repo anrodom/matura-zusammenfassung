@@ -60,9 +60,9 @@ $y=\ln(x)$:
 
 $$\begin{align}
   y'&=\lim_{\Delta x\to 0}\frac{\ln(x+\Delta x)-\ln(x)}{\Delta x}\\
-  &=\lim_{\Delta x\to 0}\frac{1}{\Delta x}\ln\left(\frac{x+\Delta x}{\Delta x}\right)\\
-  &=\lim_{\Delta x\to 0}\ln\left[\left(\frac{x+\Delta x}{\Delta x}\right)^{\frac{1}{\Delta x}}\right]\;\;\left(\textrm{Substitution:}\;n=\frac{x}{\Delta x}\right)\\
-  &=\lim_{n\to\infty}\ln\left[\left(\left(\frac{x+\Delta x}{\Delta x}\right)^n\right)^{\frac{1}{x}}\right]\\
+  &=\lim_{\Delta x\to 0}\frac{1}{\Delta x}\ln\left(\frac{x+\Delta x}{x}\right)\\
+  &=\lim_{\Delta x\to 0}\ln\left[\left(\frac{x+\Delta x}{x}\right)^{\frac{1}{\Delta x}}\right]\;\;\left(\textrm{Substitution:}\;n=\frac{x}{\Delta x}\right)\\
+  &=\lim_{n\to\infty}\ln\left[\left(\left(\frac{x+\Delta x}{x}\right)^n\right)^{\frac{1}{x}}\right]\\
   &=\frac{1}{x}\ln(e)\\
   &=\frac{1}{x}
 \end{align}$$

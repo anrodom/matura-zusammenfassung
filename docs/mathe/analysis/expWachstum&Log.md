@@ -6,7 +6,7 @@ Der Logarithmus $\log_{b}(x)$ ist die Umkehrfunktion zu $b^x$. D. h.:
 
 $$x=\log_{b}(b^x)=b^{\log_{b}(x)}$$
 
-Für $\log_{b}(x)$ gilt $\mathbb{W}=\mathbb{R}^{+}$, $\mathbb{D}=\mathbb{R}$ und für die Basis $b$ sind nur Werte aus $]1;\infty[$ erlaubt, weil nur diese zu stetigen Funktionen führen.
+Für $\log_{b}(x)$ gilt $\mathbb{W}=\mathbb{R}^{+}$, $\mathbb{D}=\mathbb{R}$ und für die Basis $b$ sind nur Werte aus $]0;\infty[\setminus\{1\}$ erlaubt, weil nur diese zu stetigen Funktionen führen.
 
 Folgende Abkürzungen werden oft verwendet:
 

@@ -2,7 +2,7 @@
 
 ## Funktionen vs. Relationen
 
-Funktionen sind eindeutige Zuordnungen aller $x\in\mathbb{D}$ zu jeweiligen $y\in\mathbb{W}$. Wenn dies sogar umgekehrt gilt, dann sind auch Umkehrfunktionen $f^{-1}$ mit $f^{-1}(f(x))=\;\forall x\in\mathbb{D}$. Umkehrfunktionen können in diesem Fall mit Umtauschen von $x$ und $y$ erreicht werden.
+Funktionen sind eindeutige Zuordnungen aller $x\in\mathbb{D}$ zu jeweiligen $y\in\mathbb{W}$. Wenn dies sogar umgekehrt gilt, dann sind auch Umkehrfunktionen $f^{-1}$ mit $f^{-1}(f(x))=x\;\forall x\in\mathbb{D}$. Umkehrfunktionen können in diesem Fall mit Umtauschen von $x$ und $y$ erreicht werden.
 
 Relationen sind bedingungslose Beziehungen zwischen $y$ und $x$. Beispiel hierfür sind Kreise und Ellipsen mit $(\frac{x}{a})^2+(\frac{y}{b})^2=1$.
 
