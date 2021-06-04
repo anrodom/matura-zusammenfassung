@@ -85,7 +85,7 @@ $$E(X)=\frac{1}{6}\left[1+2\cdot\frac{5}{6}+3\cdot(\frac{5}{6})^2+...\right]=\fr
 
 Allgemein:
 
-$$E(X)=p\cdot\frac{1}{(1-q)^2}$$
+$$E(X)=p\cdot\frac{1}{(1-q)^2}=\frac{1}{p}$$
 
 ## Normalverteilung
 

@@ -83,7 +83,7 @@ Könnte man alle Zahlen $r\in\mathbb{R}$ im Intervall $[0;1$ als Punkte in einer
 
 Eine sehr wichtige Reihe ist die sogenannte Harmonische Reihe:
 
-$$s=\sum_{k=0}^{\infty}\frac{1}{k}=\frac{1}{1}+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+...$$
+$$s=\sum_{k=1}^{\infty}\frac{1}{k}=\frac{1}{1}+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+...$$
 
 Um den Grenzwert zu bestimmen, verwendet man wieder eine Idee (Gruppieren), die bei vielen Beweisen verwendet wird:
 
