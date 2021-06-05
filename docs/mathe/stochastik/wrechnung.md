@@ -73,7 +73,7 @@ Mit diesen Informationen kann ein erster Wahrscheinlichkeiten-Baum aufgezeichnet
 
 Das Gegenereignis errechnet sich durch die Formel $p(\bar A)=1-p(A)$. Entlang eines Astes wird multipliziert, um die Wahrscheinlichkeit $p(A\wedge B)$ zu erhalten.
 
-Mit den roten Zahlen auf der rechten Seite kann nun ein umgedrehter Baum gezeichnet werden:
+Mit den farbigen Zahlen auf der rechten Seite kann nun ein umgedrehter Baum gezeichnet werden:
 
 ![invBaum](../../img/wrech-invBaum.png)
 
