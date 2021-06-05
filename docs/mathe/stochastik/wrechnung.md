@@ -32,6 +32,8 @@ $$p(E)=\frac{|E|}{|\Omega|}=\frac{k}{n}$$
 
 ## Bedingte Wahrscheinlichkeiten
 
+### Allgemein
+
 Ein Ergebnis kann unter einer bestimmten Bedingung auftauchen (Beim Baum hängt das unterste Ereignis von den oben angesetzten Bedingungen ab). Man schreibt für die Wahrscheinlichkeit: $p(E|Bedingung)$ oder allgemein: $p(A|B)$. Die Wahrscheinlichkeit, dass sowohl $A$ als auch $B$ eintreten wird $p(A\wedge B)$ oder in der Mengenlehre $A\cap B$ aufgeschrieben. Sie entspricht also der Multiplikation der Zahlen eines Astes beim Baum oder:
 
 $$\begin{align}
@@ -49,11 +51,59 @@ Ereignisse gelten als unabhängig, wenn eines der Folgenden gilt:
 
 1.  $$p(A|B)=p(A)$$
 2.  $$p(A\wedge B)=p(A)\cdot p(B)$$
-3.  $$p(A|B)=p(A|\textrm{n} B)$$
-4.  $$p(\textrm{n} A\wedge B)=p(\textrm{n} A)\cdot p(B)$$
+3.  $$p(A|B)=p(A|\bar B)$$
+4.  $$p(\bar A\wedge B)=p(\bar A)\cdot p(\bar B)$$
 5.  ...
 
 Umgekehrt sind $A$ und $B$ abhängig, wenn etwas nicht gilt.
+
+### Lösungsmethoden zu bedingten Wahrscheinlichkeiten
+
+10% einer Bevölkerung sind krank. Ist man erkrankt, liefert der Diagnosetest zu 96% ein positives Testresultat; ist man gesund, liefert er zu 94% ein negatives Testresultat. Wie gross ist die Wahrscheinlichkeit, krank zu sein, wenn das Testresultat positiv ist?
+
+$\implies$ $(K)=0.1$, $(P|K)=0.96$, $p(\bar P| \bar K)=0.94$
+
+$$p(K|P)=\text{?}$$
+
+#### Baum und invertierter Baum
+
+Mit diesen Informationen kann ein erster Wahrscheinlichkeiten-Baum aufgezeichnet werden:
+
+![Baum](../../img/wrech-baum.png)
+
+Das Gegenereignis errechnet sich durch die Formel $p(\bar A)=1-p(A)$. Entlang eines Astes wird multipliziert, um die Wahrscheinlichkeit $p(A\wedge B)$ zu erhalten.
+
+Mit den roten Zahlen auf der rechten Seite kann nun ein umgedrehter Baum gezeichnet werden:
+
+![invBaum](../../img/wrech-invBaum.png)
+
+Die verbleibenden bedingten Wahrscheinlichkeiten werden berechnet durch $p(B|A)=\frac{p(A\wedge B)}{p(B)}$. Es gilt $p(A\wedge B)=p(B\wedge A)$. Also: 
+
+$$p(K|P)=\frac{p(K\wedge P)}{p(P)}=\frac{0.096}{0.15}=0.64=64~\% $$
+
+#### Vier-Felder-Tafel 
+
+Einfacher geht die Berechnung mit einer Vier-Felder-Tafel. Sie hat folgende Struktur:
+Die erste Zeile und Spalte dienen der Namensgebung. Entlang der Zeilen und Spalten wird addiert.
+
+
+|             | **p( A )**              | **p(** $\bar A$ **)**              |   |
+|-------------|---------------------|---------------------------|---|
+| **p( B )**     | $p(A\wedge B)$      | $p(\bar A\wedge B)$      |  $p(B)$ |
+| **p(** $\bar B$ **)** | $p(A\wedge \bar B)$ | $p(\bar A\wedge \bar B)$ |  $p(\bar B)$ |
+|             |  $p(A)$             |   $p(\bar A)$            | 1 |
+
+Für die Beispielaufgabe sieht die Vier-Felder-Tafel wie folgt aus:
+
+|	| **p( P )**	| **p(** $\bar P$ **)** 	|	|
+|---|---|---|---|
+| **p( K )** |$0.96\times0.1=$ *0.096* | 0.1-*0.096*= *0.004* | 0.1 |
+| **p(** $\bar K$ **)** | 0.9-*0.846* = *0.054* | $0.94\times 0.9=$ *0.846* | 0.9|
+|	| *0.15* | 0.85 | 1 |
+
+Mit $p(B|A)=\frac{p(A\wedge B)}{p(B)}$ gilt also:
+
+$$p(K|P)=\frac{p(K\wedge P)}{p(P)}=\frac{0.096}{0.15}=0.64=64~\% $$
 
 ## Beispiel für unendliche Bäume
 

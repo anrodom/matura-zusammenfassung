@@ -263,7 +263,7 @@ $$\lim_{x\rightarrow a}\frac{f(x)}{g(x)}=\lim_{x\rightarrow a}\frac{f'(x)}{g'(x)
 ### Techniken
 
 - Zähle **gleichwahrscheinliche** Tupel/Mengen, um $k$ und $n$ zu bestimmen und/oder erstelle ein Baumdiagramm. Manchmal hilft auch ein Mengendiagramm.
-- Manchmal ist es einfacher mit dem Gegenereignis $\overline{E}$ zu rechnen: $p(E)=1-p(\overline{E})$.
+- Manchmal ist es einfacher mit dem Gegenereignis $\overline{E}$ zu rechnen: $p(E)=1-p(\bar{E})$.
 - Bei Baumdiagrammen: 
   	- Versuche, Bäume mit zwei Ästen zu erstellen. Am besten sollte immer das gesuchte Elementarereignisse und alle Gegenfälle zusammengefasst gewählt werden.
   	- Die Wahrscheinlichkeit eines **Elementarereignisses** in einem **mehrstufigen** Experiment ist das Produkt der Wahrscheinlichkeiten der einzelnen Experimente.
