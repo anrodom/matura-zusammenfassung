@@ -81,7 +81,7 @@ $$1+2x+3x^2+4x^3+...=\frac{1}{(1-x)^2}$$
 
 Beispiel: Wie oft muss gewürfelt werfen, bis zum 1ten Mal eine 5 kommt?
 
-$$E(X)=\frac{1}{6}\left[1+2\cdot\frac{5}{6}+3\cdot(\frac{5}{6})^2+...\right]=\frac{1}{6}\cdot\frac{1}{\left(1-\frac{5}{6}\right)^2}=6$$
+$$E(X)=\frac{1}{6}\left[1+2\cdot\frac{5}{6}+3\cdot\left(\frac{5}{6}\right)^2+...\right]=\frac{1}{6}\cdot\frac{1}{\left(1-\frac{5}{6}\right)^2}=6$$
 
 Allgemein:
 
