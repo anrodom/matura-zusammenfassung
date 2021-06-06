@@ -84,7 +84,7 @@ $$A_D = \frac{|\vec{a}\times\vec{b}|}{2}$$
 
 Und für die Höhe $h$:
 
-$$h = \frac{|\vec{a}\times\vec{b}|}{\vec{a}}$$
+$$h = \frac{|\vec{a}\times\vec{b}|}{|\vec{a}|}$$
 
 ## Spatprodukt
 
