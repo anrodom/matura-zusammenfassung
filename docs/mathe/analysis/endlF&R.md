@@ -35,7 +35,7 @@ $$a_{n+1}=a_n+d$$
 
 #### Explizit
 
-$$a_{n}=a_1 + (n+1)\cdot d$$
+$$a_{n}=a_1 + (n-1)\cdot d$$
 
 ### Arithmetische Reihe
 
