@@ -61,7 +61,7 @@ Umgekehrt sind $A$ und $B$ abhängig, wenn etwas nicht gilt.
 
 10% einer Bevölkerung sind krank. Ist man erkrankt, liefert der Diagnosetest zu 96% ein positives Testresultat; ist man gesund, liefert er zu 94% ein negatives Testresultat. Wie gross ist die Wahrscheinlichkeit, krank zu sein, wenn das Testresultat positiv ist?
 
-$\implies$ $(K)=0.1$, $(P|K)=0.96$, $p(\bar P| \bar K)=0.94$
+$\implies$ $p(K)=0.1$, $p(P|K)=0.96$, $p(\bar P| \bar K)=0.94$
 
 $$p(K|P)=\text{?}$$
 
