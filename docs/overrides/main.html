@@ -34,7 +34,7 @@
         console.log(path)
         for (var e = 0; e < list.length; e++) {
           if (list[e].length > 1) {
-            if (list[e][1] == path){
+            if (list[e][1] == ("de/latest/" + path)){
               pdf_text = list[e][0]
               pdf_url = path + pdf_text + ".pdf"
               console.log("Equal")
