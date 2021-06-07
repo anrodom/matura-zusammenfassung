@@ -1,5 +1,5 @@
 site_name: Matura Zusammenfassung
-# site_url: https://matura-zusammenfassung.readthedocs.io/de/latest/
+site_url: https://matura-zusammenfassung.readthedocs.io/de/latest/
 nav:
     - Home: index.md
     - Mathematik:
@@ -37,6 +37,7 @@ nav:
       - Relativitätstheorie: physik/rel.md
       - Quantenphysik: physik/quantenp.md
       - Physik mit Differential- und Integralrechnung: physik/diffint.md
+#      - Formelsammlung: physik/formelsammlung.md
     - AM:
       - Stoffplan: am/am.md
       - Beurteilende Statistik: am/beurtS.md
