@@ -47,7 +47,7 @@ Beweis mit Differenzenquotienten $\frac{\Delta I}{\Delta x}$ mit $I(x)$ als Flä
 $$\begin{align}
   \Delta xf(x+\Delta x)&\leq\Delta I\leq\Delta xf(x)\\
   f(x+\Delta x)&\leq\frac{\Delta I}{\Delta x}\leq f(x)\\
-  \lim_{x\to 0}f(x+\Delta x)&\leq\lim_{x\to 0}\frac{\Delta I}{\Delta x}\leq\lim_{x\to 0}f(x)\\
+  \lim_{\Delta x\to 0}f(x+\Delta x)&\leq\lim_{\Delta x\to 0}\frac{\Delta I}{\Delta x}\leq\lim_{\Delta x\to 0}f(x)\\
   f(x)&\leq I'(x)\leq f(x)
 \end{align}$$
 

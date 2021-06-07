@@ -90,7 +90,7 @@ $$xy + 3y^2 + 5z = 10$$
 
 ![Koordinatengleichung der Ebene E parallel zur Ebenen F mit Abstand d](../../img/eImR3.png)
 
-1.  Punkt $P$ auf der Ebene $E$ finden mit einem willkürlichen Punkt $Q$ auf $F$. $\vec{OP} = \vec{OF} \pm \lambda\vec{n}$ mit $\lambda|\vec{n}| = d$ ("$\pm$", weil es auf beiden Seiten Lösungen hat)
+1.  Punkt $P$ auf der Ebene $E$ finden mit einem willkürlichen Punkt $Q$ auf $F$. $\vec{OP} = \vec{OQ} \pm \lambda\vec{n}$ mit $\lambda|\vec{n}| = d$ ("$\pm$", weil es auf beiden Seiten Lösungen hat)
 2.  Koordinatengleichung für $E$ benutzt das gleiche $\vec{n}$ und man setzt $P$ ein, um $D$ zu berechnen.
 
 ### Punkt P an Ebene E spiegeln
