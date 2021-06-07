@@ -97,5 +97,5 @@ Ein Anwendungsbeispiel wäre der Fehlerstromschutzschalter.
 
 ![Fehlerstromschutzschalter](../img/mag2.png)
 
-Wenn jemand eine Gabel in die Steckdose steckt, dann geht ein Teil von $I$ in den Boden. Für den Schalter gilt dann $I_{\textrm{zurück}}>I_{\textrm{ein}}$, was dazu führt, dass eine Spannung $U_2$ in die Sekundärspule induziert wird.
+Wenn jemand eine Gabel in die Steckdose steckt, dann geht ein Teil von $I$ in den Boden. Für den Schalter gilt dann $I_{\textrm{zurück}}<I_{\textrm{ein}}$, was dazu führt, dass eine Spannung $U_2$ in die Sekundärspule induziert wird.
 
