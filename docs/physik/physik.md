@@ -12,5 +12,5 @@ Folgende Themengebiete sind Stoff:
 - [Kernphysik](kernp.md)
 - [Quantenphysik](quantenp.md)
 
-Und die [Formelsammlung](formelsammlung.m)
+Und die [Formelsammlung](formelsammlung.md)
 

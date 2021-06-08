@@ -95,7 +95,7 @@ def createPDF(md_files, final_file):
                 f.writelines(text)
                 f.write('\n')
 
-    a = f'pandoc -s --pdf-engine=pdflatex "{n}" --resource-path=.:docs/img -o "{path}"'
+    a = f'pandoc -s --pdf-engine=pdflatex "{n}" --resource-path=.:docs/img -o "{path}" --verbose'
     print(a)
     os.system(a)
 
