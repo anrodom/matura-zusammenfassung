@@ -37,7 +37,7 @@ nav:
       - Relativitätstheorie: physik/rel.md
       - Quantenphysik: physik/quantenp.md
       - Physik mit Differential- und Integralrechnung: physik/diffint.md
-#      - Formelsammlung: physik/formelsammlung.md
+      - Formelsammlung: physik/formelsammlung.md
     - AM:
       - Stoffplan: am/am.md
       - Beurteilende Statistik: am/beurtS.md

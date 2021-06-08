@@ -75,3 +75,4 @@ Sie haben also einen Wirkungsgrad $\eta$:
 $$\eta=\frac{W}{Q_1}=\frac{T_1-T_2}{T_1}$$
 
 Im Idealfall also $\eta=1$ aber bei Kernkraftwerken zwischen 30%-35%.
+
