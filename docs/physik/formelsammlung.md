@@ -52,7 +52,7 @@ $$\begin{align}
 * $A \rightarrow$ Kernbestandteile $n + p^+$
 * $Z \rightarrow$ Protonen
 * Bindungsenergie: $E_B = [ Z\cdot m_P + (A – Z)\cdot m_N – m(A,\;Z) ]\cdot c^2$
-* $\alpha$ - Zerfall (Helium-Kern): $^A_ZX \xrightarrow {\alpha} ^{A - 4}_{Z - 2}Y + 2e^-$
+* $\alpha$ - Zerfall (Helium-Kern): $^A_ZX \xrightarrow {\alpha} ^{A - 4}_{Z - 2}Y + ^4_2\textrm{He}^{2+}+2e^-$
 * $\beta$-Zerfall (Neutron $\rightarrow$ Proton und Elektron): $^A_ZX \xrightarrow {\beta} _{Z + 1}^{\;\;A}Y + e^-$
 * Anzahl Halbwertszeiten: $n=\frac{t}{T_{1/2}}$
 * $N = \frac{\text{Masse des Stoffs}}{\text{Kernmasse}}$
