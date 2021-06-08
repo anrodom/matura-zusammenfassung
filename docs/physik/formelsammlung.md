@@ -56,7 +56,7 @@ $$\begin{align}
 * $\beta$-Zerfall (Neutron $\rightarrow$ Proton und Elektron): $^A_ZX \xrightarrow {\beta} _{Z + 1}^{\;\;A}Y + e^-$
 * Anzahl Halbwertszeiten: $n=\frac{t}{T_{1/2}}$
 * $N = \frac{\text{Masse des Stoffs}}{\text{Kernmasse}}$
-* Arbeit Wärmearbeitsmaschine (Erzeugte Wärmemenge $Q_1$ und abgegebene Wärmemenge $Q_2$): $W=P\cdot t= Q_1 - Q_2$ mit Wirkungsgrad: $\eta=\frac{W}{Q_1}=\frac{T_1-T_2}{T_1}$
+* Arbeit Wärmearbeitsmaschine (Erzeugte Wärmemenge $Q_1$ und abgegebene Wärmemenge $Q_2$): $W=P\cdot t= Q_1 - Q_2$ mit Wirkungsgrad: $\eta=\frac{W}{Q_1}<_\textrm{(ideal)}\frac{T_1-T_2}{T_1}$
 
 ## Wellen/Akustik
 
