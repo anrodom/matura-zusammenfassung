@@ -80,12 +80,12 @@ $$\begin{align}
 * Schallgeschwindigkeit: 
 
 $$\begin{align}
-    v_l &= \sqrt{\frac{R\cdot T\cdot\kappa}{M}}\\
-    R &\approx 8.31 \text{J\cdot K}^{-1} \text{mol}^{-1}\\
-    T &= \text{Temperatur in K}\\
-    M &= \text{Molmasse in kg mol} ^{-1}\\
-    &\text{1-atomige Gase: } \kappa = \frac{5}{3}\\
-    &\text{2-atomige Gase: } \kappa = \frac{7}{5} 
+	v_l &= \sqrt{\frac{R\cdot T\cdot\kappa}{M}}\\
+	R &\approx 8.31 J\cdot K^{-1} \text{mol}^{-1}\\
+	T &= \text{Temperatur in K}\\
+	M &= \text{Molmasse in kg mol}^{-1}\\
+	&\text{1-atomige Gase: } \kappa = \frac{5}{3}\\
+	&\text{2-atomige Gase: } \kappa = \frac{7}{5} 
 \end{align}$$
 
 * Akustischer Doppler:
@@ -94,7 +94,7 @@ $$\begin{align}
 	\textrm{Quelle bewegt sich zur Person}:&&f'=\frac{c}{c-v}\cdot f\\
 	\textrm{Quelle bewegt sich von Person weg}:&&f'=\frac{c}{c+v}\cdot f\\
 	\textrm{Person bewegt sich zur Quelle}:&&f'=\frac{c+v}{c}\cdot f\\
-	\textrm{Person bewegt sich von Quelle weg}:&&f'=\frac{c-v}{c}\cdot f\\
+	\textrm{Person bewegt sich von Quelle weg}:&&f'=\frac{c-v}{c}\cdot f
 \end{align}$$
 
 * Machkegel: $\sin(\alpha)=\frac{c}{v}$ mit $\alpha=\frac{1}{2}$ Öffnung
