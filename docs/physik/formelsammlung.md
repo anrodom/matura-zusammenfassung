@@ -8,9 +8,10 @@
 * Energiesatz: $W_\text{tot} = F_\text{res} \cdot\Delta x = \Delta E_\text{kin}$
 
 
-## Auftrieb
+## Hydrostatik
 
 * Auftrieb: $\rho_{\text{Gas}}=\frac{p M}{R T}$, wobei $M_{\text{Luft}}=0.029 \text{kg mol}^{-1}$
+* Halbkugeln: $F=\Delta p\cdot A$
 
 ## Thermodynamik
 

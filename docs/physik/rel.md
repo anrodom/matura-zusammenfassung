@@ -49,7 +49,7 @@ Es gilt:
 
 $$\begin{align}
 	f&=f'\sqrt{\frac{c-v}{c+v}}=f'\sqrt{\frac{1-\beta}{1+\beta}}&&\textrm{(Entfernen)}\\
-	f&=f'\sqrt{\frac{c-v}{c+v}}=f'\sqrt{\frac{1-\beta}{1+\beta}}&&\textrm{(Annähern)}
+	f&=f'\sqrt{\frac{c+v}{c-v}}=f'\sqrt{\frac{1+\beta}{1-\beta}}&&\textrm{(Annähern)}
 \end{align}$$
 
 Beim Entfernen wird die Frequenz kleiner (Rotverschiebung) und beim Annähern wird sie grösser (Blauverschiebung).
