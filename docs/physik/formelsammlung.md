@@ -22,8 +22,8 @@
 
 * Spannungsabfall bei Kabel, Verbraucherwiderstand: $U' = U - R_1 \frac{U}{R_1 + R_2}$
 * Kirchhoff'sche Regeln: 
-  * An Knotenpunkten beträgt die Summe aller ein- und ausfliessenden Ströme null: $\sum_{k=1}^{n} I_k = 0$
-  * Alle Teilspannungen eines Umlaufs addieren sich zu null: $\sum_{k=1}^{n} U_n = 0$
+	* An Knotenpunkten beträgt die Summe aller ein- und ausfliessenden Ströme null: $\sum_{k=1}^{n} I_k = 0$
+	* Alle Teilspannungen eines Umlaufs addieren sich zu null: $\sum_{k=1}^{n} U_n = 0$
 * Addition von Widerständen in Parallel-Schaltung: $R_{\text{eq}} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2}} = \frac{R_1 R_2}{R_1 + R_2}$
 * Weiteres zu Serien-Schaltung:
 
@@ -44,8 +44,8 @@ $$\begin{align}
 ## Lenz'sche Regel (Fluss)
 
 * Erzeugt ein (den **Vorgang** hemmendes) Magnet-Feld
-  * beim Einschieben entgegen $\vec{B}$
-  * beim Herausnehmen mit $\vec{B}$
+	* beim Einschieben entgegen $\vec{B}$
+	* beim Herausnehmen mit $\vec{B}$
 
 ## Kernphysik
 
@@ -105,7 +105,7 @@ $$\begin{align}
 * Blauverschiebung: Annäherung, kleines $\lambda$
 * $f = f'\sqrt{\frac{1 + \beta}{1-\beta}}$
 * $\frac{f}{f'}=\frac{\lambda'}{\lambda}=k$
-* $\beta = \sqrt{\frac{k^2-1}{k^2+1}}$
+* $\beta = |\frac{k^2-1}{k^2+1}|$
 * $\gamma = \frac{1}{\sqrt{1-\beta^2}} > 1$
 * $\beta=\sqrt{1 - \frac{1}{\gamma^2}}$
 * Zeitdilatation: "Bewegte Uhren gehen langsamer"
@@ -131,16 +131,16 @@ $$\begin{align}
 ## ART
 
 * Grav. Dopplereffekt:
-  * Unten ist die Uhr langsamer 
-  * $f_{\text{oben}} = f_{\text{unten}} \sqrt{\frac{1-\beta}{1 +\beta}}$
-  * $f_{\text{oben}} = f_{\text{unten}}(1-\frac{gh}{c^2})$
-  * $\Delta f = \frac{gh}{c^2}\cdot f_{\textrm{unten}}$ 
+	* Unten ist die Uhr langsamer 
+	* $f_{\text{oben}} = f_{\text{unten}} \sqrt{\frac{1-\beta}{1 +\beta}}$
+	* $f_{\text{oben}} = f_{\text{unten}}(1-\frac{gh}{c^2})$
+	* $\Delta f = \frac{gh}{c^2}\cdot f_{\textrm{unten}}$ 
 
 ## QM
 
 * Unschärfen: 
-  * $\Delta p \Delta x \geq h$
-  * $\Delta E \Delta t \geq h$
+	* $\Delta p \Delta x \geq h$
+	* $\Delta E \Delta t \geq h$
 * De Broglie: $\lambda=\frac{h}{m\cdot v}=\frac{h}{\sqrt{2m\cdot E_{\textrm{kin}}}}$
 * Tunneling: 
 
