@@ -98,7 +98,7 @@ Für die Energie $E$ gelten:
 
 $$\begin{align}
 	E&=m\cdot c^2=m_0\cdot \gamma\cdot c^2\\
-	E&=E_0+E_{\textrm{kin}}=m_0\cdot c^2+\frac{1}{2} \cdot v^2 \cdot m_0
+	E&=E_0+E_{\textrm{kin}}=m_0\cdot c^2+(\gamma-1)m_0\cdot c^2
 \end{align}$$
 
 Masse und Energie sind also äquivalent.

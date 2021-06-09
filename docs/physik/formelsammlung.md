@@ -113,7 +113,9 @@ $$\begin{align}
 * Längenkontraktion: "Bewegte Massstäbe sind kürzer"
 * $l' = \frac{l_0}{\gamma}$ mit $l$ als Eigenlänge und $l'$ als beobachtete Länge
 * Geschwindigkeitsaddition: $u = \frac{v + u'}{1 + \frac{v\cdot u'}{c^2}}$
-  ![$u'+v$](../img/rel-uv.png)
+
+![$u'+v$](../img/rel-uv.png)
+
 * Impulserhaltung ($p=\gamma \cdot m_0\cdot v$): $\gamma_1 m_{0,1} v_1 + \gamma_2 m_{0,2} v_2 = \gamma_1'm_{0,1}v_1' + \gamma_2'm_{0,2}v_2'$
 * Desynchronisation (mit $x_2'-x_1'$ = Distanz im Ruhesystem der Uhren): $\Delta t = \frac{v}{c^2}(x_2'-x_1')=\frac{v}{c^2} \Delta s'$
 * Gesamtenergie eines Körpers (bleibt erhalten): $E_{\text{tot}}=mc^2=\gamma m_0c^2$
