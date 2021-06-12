@@ -33,8 +33,8 @@ $$\mu\approx\bar{x}\pm s_n$$
 Es gilt:
 
 $$\begin{align}
-	&\bar{x}\pm s_n &&(\textrm{68% Sicherheit})\\
-	&\bar{x}\pm 2s_n &&(\textrm{95% Sicherheit})\\
-	&\bar{x}\pm 3s_n &&(\textrm{99% Sicherheit})
+	&\bar{x}\pm s_n &&(\textrm{68\% Sicherheit})\\
+	&\bar{x}\pm 2s_n &&(\textrm{95\% Sicherheit})\\
+	&\bar{x}\pm 3s_n &&(\textrm{99\% Sicherheit})
 \end{align}$$
 
