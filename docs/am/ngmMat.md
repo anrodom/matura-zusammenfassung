@@ -20,13 +20,26 @@ Stochastische Matrizen sind Matrizen, bei denen jede Spalte die Summe 1 aufweist
 
 ## Grenzvektor
 
+### Bestimmung
+
 Für Grenzvektoren $\vec{v}=\begin{pmatrix}A\\B\\C\\D\end{pmatrix}$ einer Matrix $M$ mit $A+B+C+D=\textrm{Bestand}$ gilt:
 
 $$\vec{v}=M\cdot\vec{v}$$
 
-Ihre Existenz lässt sich mit Hilfe von EV und EW zeigen:
+### Existenz
 
-$$\lim_{n\to\infty}M^n\cdot\begin{pmatrix}A_0\\B_0\\C_0\\D_0\end{pmatrix}$$
+Es sei eine Matrix $M=\begin{pmatrix}0.2&0.4\\0.8&0.6\end{pmatrix}$ und in Startvektor $\begin{pmatrix}a_0\\b_0\end{pmatrix}$ mit $a_0+b_0=600$ gegeben. Die Matrix $M$ besitzt den Eigenvektor $\begin{pmatrix}1\\2\end{pmatrix}$ mit Eigenwert $1$ und den Eigenvektor $\begin{pmatrix}-1\\1\end{pmatrix}$ mit Eigenwert $-0.2$. Der Startvektor kann also mit Hilfe des Fixpunktes und der Eigenvektoren wie folgt aufgeschrieben:
+
+$$\begin{pmatrix}a_0\\b_0\end{pmatrix}=\begin{pmatrix}200\\400\end{pmatrix}+C\cdot\begin{pmatrix}-1\\1\end{pmatrix}$$
+
+Um die Existenz des Grenzwertes zu zeigen geht man wie folgt vor:
+
+$$\begin{align}
+	\lim_{n\to\infty}M^n\cdot\begin{pmatrix}a_0\\b_0\end{pmatrix}&=\lim_{n\to\infty}M^n\cdot\left(\begin{pmatrix}200\\400\end{pmatrix}+C\cdot\begin{pmatrix}-1\\1\end{pmatrix}\right)\\
+	&=\lim_{n\to\infty}M^n\cdot\begin{pmatrix}200\\400\end{pmatrix}+M^n\cdot C\cdot\begin{pmatrix}-1\\1\end{pmatrix}\\
+	&=\lim_{n\to\infty}\begin{pmatrix}200\\400\end{pmatrix}+C\cdot(-0.2)^n\cdot\begin{pmatrix}-1\\1\end{pmatrix}\\
+	&=\begin{pmatrix}200\\400\end{pmatrix}
+\end{align}$$
 
 ## Explizite Definition
 
