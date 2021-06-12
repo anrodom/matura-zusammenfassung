@@ -33,8 +33,6 @@ $$\begin{align}
 	&=a\cdot\alpha (\vec{p})
 \end{align}$$
 
-$$
-
 * $\textrm{III.}\implies\textrm{II.}\;\textrm{mit}\;a=b=1$
 
 $$\begin{align}
