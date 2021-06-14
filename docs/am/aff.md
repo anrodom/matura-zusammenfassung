@@ -4,7 +4,7 @@
 
 ### Definition
 
-Punktabbildungen $\alpha$ der folenden Form nennt man Affinitäten:
+Punktabbildungen $\alpha$ der folgenden Form nennt man Affinitäten:
 
 $$\begin{align}
 	x'&=a\cdot x + b\cdot y+e\\
@@ -80,11 +80,11 @@ $$\begin{align}
 	\lambda\cdot y&=c\cdot x + d\cdot y\\
 \end{align}$$
 
-Wegen der vorher gezeigten Zusammenhang von Kollinearität und den Eigenvektoren, muss dieses Gleichungssystem $\infty$ viele Lösungen (kollineare Vektoren) haben. Die Determinante $\Delta$ muss also 0 sein:
+Wegen des vorher gezeigten Zusammenhanges von Kollinearität und der Eigenvektoren, muss dieses Gleichungssystem $\infty$ viele Lösungen (kollineare Vektoren) haben. Die Determinante $\Delta$ muss also 0 sein:
 
 $$(a-\lambda)(d-\lambda)-b\cdot c=0$$
 
-Daraus entsteht auch das charakterische Polynom:
+Daraus entsteht auch das charakteristisches Polynom:
 
 $$\lambda^2-(a+d)\lambda + ad - bc= \lambda^2-(a+d)\lambda + \Delta$$
 
@@ -92,7 +92,7 @@ Alle Eigenvektoren zum Eigenwert $\lambda$ (es gibt 2 weil quadratisch) sind Lö
 
 ### Fixgeraden
 
-Fixgeraden sind Geraden, deren Abbildung auf sich selbst fällt, sprich die selbe Gerade. Es muss also nict zwingend jeder Punkt auf sich selbst fallen (Fixpunktgerade). 
+Fixgeraden sind Geraden, deren Abbildung auf sich selbst fällt, sprich dieselbe Gerade. Es muss also nicht zwingend jeder Punkt auf sich selbst fallen (Fixpunktgerade). 
 
 Der Richtungsvektor $\vec{AA'}$ der Geraden ist kollinear zum Eigenvektor $\vec{v}$:
 

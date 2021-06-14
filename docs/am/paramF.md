@@ -4,13 +4,13 @@
 
 ### Definition
 
-Bei Parameterfunktionen werden die die Koordinaten $x$ und $y$ mit Hilfe eines Parameters $t$ definiert. Für einen Punkt $P$ gilt also:
+Bei Parameterfunktionen werden die Koordinaten $x$ und $y$ mit Hilfe eines Parameters $t$ definiert. Für einen Punkt $P$ gilt also:
 
 $$P(x(t)|y(t))$$
 
 ### Kreise und Ellipsen
 
-Ellipsen bzw. Kreise mit Hauptachse $a$, Nebenachse $b$ und Mittelpunkt $M=(x_M|y_M)$ hat die Parameterfunktion:
+Ellipsen bzw. Kreise mit Hauptachse $a$, Nebenachse $b$ und Mittelpunkt $M=(x_M|y_M)$ hadie Parameterfunktion:
 
 $$\begin{align}
 	x(t)&=x_M+a\cdot\cos(t)\\

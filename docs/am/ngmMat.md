@@ -2,7 +2,7 @@
 
 ## Allgemein
 
-Eigentlich können sowohl Matrizen für Mengen / Preisen und Populationen als auch stochastische Matrizen (auch Markov-Ketten) nach dem gleichen Prinzip aufgestellt werden, wenn schon ein Übergangsgraph vorhanden ist. Es seien $A_1$, $B_1$, $C_1$ und $D_1$ die gesuchten Zahlen (Entwicklung nach einer Zeiteinheit, Endprodukt/Zwischenprodukt oder die nächsten Folgenglieder) und $A_0$, $B_0$, $C_0$ und $D_0$ die schon vorhandenen Zahlen (Anfangsbestand, Rohstoffe oder die ersten Folgenglieder). Übergänge werden mit z. B. $B_0\rightarrow A_1$ indiziert.
+Eigentlich können sowohl Matrizen für Mengen / Preise und Populationen als auch stochastische Matrizen (auch Markov-Ketten) nach dem gleichen Prinzip aufgestellt werden, wenn schon ein Übergangsgraph vorhanden ist. Es seien $A_1$, $B_1$, $C_1$ und $D_1$ die gesuchten Zahlen (Entwicklung nach einer Zeiteinheit, Endprodukt/Zwischenprodukt oder die nächsten Folgenglieder) und $A_0$, $B_0$, $C_0$ und $D_0$ die schon vorhandenen Zahlen (Anfangsbestand, Rohstoffe oder die ersten Folgenglieder). Übergänge werden mit z. B. $B_0\rightarrow A_1$ indiziert.
 
 $$\begin{align}
 	\begin{pmatrix}A_1\\B_1\\C_1\\D_1\end{pmatrix}&=\begin{pmatrix}A_0\rightarrow A_1 & B_0\rightarrow A_1 & C_0\rightarrow A_1 & D_0\rightarrow A_1\\  A_0\rightarrow B_1 & B_0\rightarrow B_1 & C_0\rightarrow B_1 & D_0\rightarrow B_1\\  A_0\rightarrow C_1 & B_0\rightarrow C_1 & C_0\rightarrow C_1 & D_0\rightarrow C_1\\  A_0\rightarrow D_1 & B_0\rightarrow D_1 & C_0\rightarrow D_1 & D_0\rightarrow D_1\end{pmatrix}\cdot\begin{pmatrix}A_0\\B_0\\C_0\\D_0\end{pmatrix}\\
@@ -28,7 +28,7 @@ $$\vec{v}=M\cdot\vec{v}$$
 
 ### Existenz
 
-Es sei eine Matrix $M=\begin{pmatrix}0.2&0.4\\0.8&0.6\end{pmatrix}$ und in Startvektor $\begin{pmatrix}a_0\\b_0\end{pmatrix}$ mit $a_0+b_0=600$ gegeben. Die Matrix $M$ besitzt den Eigenvektor $\begin{pmatrix}1\\2\end{pmatrix}$ mit Eigenwert $1$ und den Eigenvektor $\begin{pmatrix}-1\\1\end{pmatrix}$ mit Eigenwert $-0.2$. Der Startvektor kann also mit Hilfe des Fixpunktes und der Eigenvektoren wie folgt aufgeschrieben:
+Es sei eine Matrix $M=\begin{pmatrix}0.2&0.4\\0.8&0.6\end{pmatrix}$ und ein Startvektor $\begin{pmatrix}a_0\\b_0\end{pmatrix}$ mit $a_0+b_0=600$ gegeben. Die Matrix $M$ besitzt den Eigenvektor $\begin{pmatrix}1\\2\end{pmatrix}$ mit Eigenwert $1$ und den Eigenvektor $\begin{pmatrix}-1\\1\end{pmatrix}$ mit Eigenwert $-0.2$. Der Startvektor kann also mit Hilfe des Fixpunktes und der Eigenvektoren wie folgt aufgeschrieben:
 
 $$\begin{pmatrix}a_0\\b_0\end{pmatrix}=\begin{pmatrix}200\\400\end{pmatrix}+C\cdot\begin{pmatrix}-1\\1\end{pmatrix}$$
 
@@ -45,7 +45,7 @@ $$\begin{align}
 
 ### Fibonacci-Folge
 
-Die Fibonacci-Folge hat die Folgende rekursive Definition, welche sich mit vollständiger Induktion beweisen lässt:
+Die Fibonacci-Folge hat die folgende rekursive Definition, welche sich mit vollständiger Induktion beweisen lässt:
 
 $$\begin{pmatrix}a_{2n}\\a_{2n+1}\end{pmatrix}=\begin{pmatrix}1&1\\1&2\end{pmatrix}^n\cdot\begin{pmatrix}1\\1\end{pmatrix}$$
 

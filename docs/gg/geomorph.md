@@ -47,7 +47,7 @@ Wasser und darin enthaltene Basen/Säuren lösen Steine auf. Kann mehrere hunder
     * Wenn Hangabtragung mit Tiefenerosion mithalten kann: Kerbtal
     * Wenn Tiefenerosion schwächer ist als Seitenerosion: Cañon
 * Mäander: Schlagenförmiger Fluss
-* Prallhang, Gleithang: Bei Kurven fliesst das Wasser auf der einen Seite schneller als auf der anderen, dadurch mehr Erosion, dadurch mehr Kurve: ![Siehe Bild S. 161]()
+* Prallhang, Gleithang: Bei Kurven fliesst das Wasser auf der einen Seite schneller als auf der anderen, dadurch mehr Erosion, dadurch mehr Kurve: ![Siehe Bild S. 161](../img/gm1.jpeg)
 * Rückwärtserosion: Wasserfälle werden immer nach Hinten verschoben, da das Gestein erodiert
 * Geröll- oder Geschiebefracht: Material rollt auf Flussboden mit
 * Lösungsfracht: In Wasser gelöstes Material (z. B. Salz) wird transportiert
@@ -85,12 +85,12 @@ Wasser und darin enthaltene Basen/Säuren lösen Steine auf. Kann mehrere hunder
 * Wenn Gletscher sich zurückzieht gibt's neue Landschaft
 * Gletscherschliff: Raue Erdoberfläche durch fliessendes Eis erodiert
 * Gletscherschrammen: Furchen im Gestein, können Auskunft über ehemalige Fliessrichtung geben
-* Rundhöcker: Geschliffene Felshindernisse, enthalten Schrammen. Kurze Erklärung auf Seite 165
+* Rundhöcker: Geschliffene Felshindernisse, enthalten Schrammen. ![Kurze Erklärung auf Seite 165](../img/gm2.jpeg)
 * Kar: Hohlform im Boden (eingedrückter Boden)
 * Karsee: Wenn sich nach Gletscherrückzug in Kar ein See bildet
 * Trogtal: Wenn Gletscher ein Kerbtal von einem Fluss weiter erodiert
 * Kerbtal kann später durch Flussablagerungen wieder gefüllt werden
-* Trogkante, Trogschulter, Schliffgrenze, Hängetal: Siehe Bild S 166
+* Trogkante, Trogschulter, Schliffgrenze, Hängetal: ![Siehe Bild S 166](../img/gm3.jpeg)
 * Schliffgrenze: Ehemaliger Höchststand eines Gletscher
 * Fjord: Wenn Trogtal vom Meer geflutet wird
 * Moräne: Gesteinstrümmer, die von Gletscher transportiert wurden und abgelagert sind. Sind unsortiert, da Sandkörner gleich schnell transportiert werden wie Felsbrocken
@@ -103,18 +103,18 @@ Wasser und darin enthaltene Basen/Säuren lösen Steine auf. Kann mehrere hunder
 * Glaziale Seenbildung
     * Karseen: Siehe oben
     * Zungenbeckenseen: Nach Rückzug von Gletscherzunge. Von Seitenmoränen umgeben
-    * Toteisseen: Wenn sich bei Rückzug von Gletscher Eisbrocken in der Moränen zurückbleiben (sog. **Toteis**), sackt die Moräne später ein wenn das Eis schmilzt. Es bildet sich ein See, der meist keine Zuflüsse hat
+    * Toteisseen: Wenn beim Rückzug von Gletschern Eisbrocken in den Moränen zurückbleiben (sog. **Toteis**), sackt die Moräne später ein, wenn das Eis schmilzt. Es bildet sich ein See, der meist keine Zuflüsse hat.
 
 
 ### Formenbildung durch Wind
 
 * Äolisch: "von Wind geschaffen"
 * Deflation/Ausblasung: Wenn Wind Sand aufwirbelt und wegbringt
-* Hammada: Felswüste, die entsteht weil der Sand weggeblasen wurde
+* Hammada: Felswüste, die entsteht, weil der Sand weggeblasen wurde
 * Serir: Kies- oder Geröllwüste, ebenso entstanden wie Hammada
 * Die Erosion durch sandhaltigen Wind findet knapp über dem Boden statt
 * Windkanter: Steine, die durch sandhaltigen Wind rundum geschliffen wurden
-* Pilzfelsen: Felsen, welche nur unten geschliffen wurden. ![Bild Seite 168]()
+* Pilzfelsen: Felsen, welche nur unten geschliffen wurden. ![Bild Seite 168](../img/gm4.jpeg)
 * Saltation: Bewegung von Sandkörner, wenn sie sich "springend" fortbewegen
 * Flugsand/Flugstaub: Sand, der vom Wind weite Strecken transportiert wird
 * Dünen: Sandablagerungen, wenn der Wind nachlässt
@@ -122,7 +122,7 @@ Wasser und darin enthaltene Basen/Säuren lösen Steine auf. Kann mehrere hunder
 * Luvseite von der Düne: "Vorderseite", dort wo der Wind weht
 * Leeseite von der Düne: "Hinterseite", dort wo neues Material abgelagert wird
 * Transport von Luv- zu Leeseite passiert durch Saltation
-* Dünen können wandern, wenn der Wind ständig Material auf die Windabgelegen Seite weht
+* Dünen können wandern, wenn der Wind ständig Material auf die windabgelegen Seite weht
 * Windrippel: Auf der Oberfläche von Dünen, einige Zentimeter grosse Wellenformen. Quer zur Windrichtung
 * Löss: Grosse fruchtbare, aber leicht erodierbare Staubablagerungen, wenn der Wind immer in die gleiche Richtung weht
 
@@ -134,10 +134,10 @@ Wasser und darin enthaltene Basen/Säuren lösen Steine auf. Kann mehrere hunder
 * Brandung: Welle, die auf die Küsten ausläuft
 * Abrasion: Küstenerosion, entsteht durch schleifende Wirkung von Sand und Lockermaterial
 * Küstenerosion findet v. a. bei Steilküsten statt
-* Brandungshohlkehle: ![Siehe Bild S. 169]()
+* Brandungshohlkehle: ![Siehe Bild S. 169](../img/gm5.jpeg)
 * Kliff: Sehr steiler Strand, entsteht wenn Brandungshohlkehle einstürzt
-* Abrasions/Brandungsplatform: ![Siehe Bild S. 169]()
+* Abrasions/Brandungsplattform: ![Siehe Bild S. 169](../img/gm5.jpeg)
 * Flachküsten: Bestehen aus Sand und Geröll, können wachsen (durch Akkumulation) oder schrumpfen
 * Ausgleichsküste: Sand wird von Meeresströmungen erodiert, transportiert und an der gleichen Küste wieder abgelagert
 * Nehrung: Ablagerung vor der Küste, wenn Brandung die Küste erodiert und es vor der Küste wieder Akkumuliert wird
-* Lagune: ![Siehe Bild Seite 170]()
+* Lagune: ![Siehe Bild Seite 170](../img/gm6.jpeg)
