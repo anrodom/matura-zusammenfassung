@@ -48,6 +48,7 @@ nav:
       - Parameterfunktionen: am/paramF.md
     - Geographie:
       - Stoffplan: gg/geographie.md
+      - Naturgefahren: gg/naturg.md
       - Wahlthema Wetter und Klima: gg/wetter&Klima.md
       - Wahlthema Geomorphologie: gg/geomorph.md
 extra_css:
