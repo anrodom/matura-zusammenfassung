@@ -33,6 +33,15 @@ Für die Umkehrabbildung:
 
 $$\Delta_{\alpha^{-1}}=\frac{1}{\Delta_{\alpha}}$$
 
+### Umkehrabbildung
+
+Durch Umtauschen von $x$ und $y$ mit $x'$ und $y'$ und Lösen nach $x'$ und $y'$ oder mit der allgemeinen F
+
+$$\begin{align}
+	x'&=\frac{1}{\Delta}(d\cdot x - b\cdot y +bf-de)\\
+	y'&=\frac{1}{\Delta}(-c\cdot x + a\cdot y+ce-af)
+\end{align}$$
+
 ### Perspektivität
 
 Abbildungen $\alpha$ mit einer Fixpunktgeraden $g$ und einer Affinitätsrichtung $\vec{PP'}$ nennt man perspektiv affin. Zur Bestimmung der Fixpunktgeraden, wird von den Gleichungen von Fixpunkten ausgegangen:

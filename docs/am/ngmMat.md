@@ -14,6 +14,10 @@ $$\begin{align}
 
 Matrizen $A$ sind zyklisch, wenn es ein $n\in\mathbb{N}$ hat mit $A^n=A$
 
+Damit eine Population nach $n$ Jahren $a$ mal Grösser wird, gilt:
+
+$$M^n=\begin{pmatrix}a&0&0\\0&a&0\\0&0&a\end{pmatrix}$$ 
+
 ## Stochastische Matrizen
 
 Stochastische Matrizen sind Matrizen, bei denen jede Spalte die Summe 1 aufweist.

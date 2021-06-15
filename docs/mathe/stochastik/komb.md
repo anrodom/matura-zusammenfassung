@@ -70,6 +70,9 @@ $$\begin{align}
   e&=\lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n\\
   &=\lim_{n\to\infty}\sum_{k=0}^{n}{n\choose k}\left(\frac{1}{n}\right)^k1^{n-k}\\
   &=\lim_{n\to\infty}\sum_{k=0}^{n}\frac{n(n-1)...(n-k+1)}{k!}\frac{1}{n^k}\\
+  &=\lim_{n\to\infty}\sum_{k=0}^{n}\frac{n^k+a\cdot n^{k-1}+...}{k!}\frac{1}{n^k}\\
+  &=\lim_{n\to\infty}\sum_{k=0}^{n}\frac{\frac{n^k}{n^k}+\frac{a\cdot n^{k-1}}{n^k}+...}{k!}\\
+  &=\sum_{k=0}^{n}\frac{1+0+0+...}{k!}\\
   &=\sum_{k=0}^{\infty}\frac{1}{k!}
 \end{align}$$
 
