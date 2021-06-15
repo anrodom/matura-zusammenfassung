@@ -45,8 +45,8 @@ $$\begin{align}
 Wenn also folgendes Gleichungssystem 
 
 $$\begin{align}
-	x&=(a-1)\cdot x + b\cdot y+e\\
-	y&=c\cdot x + (d-1)\cdot y+f\\
+	0&=(a-1)\cdot x + b\cdot y+e\\
+	0&=c\cdot x + (d-1)\cdot y+f\\
 \end{align}$$
 
 eine allgemeingültige Lösung hat, z. B. $0=0$, dann können beide Gleichungen zur Gleichung der Fixpunktgeraden umgeformt werden.
@@ -63,7 +63,7 @@ Vektoren $\vec{v}$ mit Vektorabbildung $\vec{\alpha}$ nennt man Eigenvektor mit 
 
 $$\vec{\alpha}(\vec{v})=\lambda\cdot\vec{v}$$
 
-Eigenvektoren werden zu kollinearen Vektoren zum Eigenvektor abgebildet.
+Eigenvektoren werden zu zum Eigenvektor kollinearen Vektoren abgebildet.
 
 Umgekehrt gilt auch für alle zum Eigenvektor $\vec{v}$ kollinearen Vektoren $\vec{w}$:
 
@@ -84,7 +84,7 @@ Wegen des vorher gezeigten Zusammenhanges von Kollinearität und der Eigenvektor
 
 $$(a-\lambda)(d-\lambda)-b\cdot c=0$$
 
-Daraus entsteht auch das charakteristisches Polynom:
+Daraus entsteht auch das charakteristische Polynom:
 
 $$\lambda^2-(a+d)\lambda + ad - bc= \lambda^2-(a+d)\lambda + \Delta$$
 
