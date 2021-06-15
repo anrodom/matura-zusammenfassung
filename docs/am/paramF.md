@@ -10,7 +10,7 @@ $$P(x(t)|y(t))$$
 
 ### Kreise und Ellipsen
 
-Ellipsen bzw. Kreise mit Hauptachse $a$, Nebenachse $b$ und Mittelpunkt $M=(x_M|y_M)$ hadie Parameterfunktion:
+Ellipsen bzw. Kreise mit Hauptachse $a$, Nebenachse $b$ und Mittelpunkt $M=(x_M|y_M)$ hat die Parameterfunktion:
 
 $$\begin{align}
 	x(t)&=x_M+a\cdot\cos(t)\\
