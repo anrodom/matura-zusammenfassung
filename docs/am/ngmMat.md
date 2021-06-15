@@ -18,6 +18,17 @@ Damit eine Population nach $n$ Jahren $a$ mal Grösser wird, gilt:
 
 $$M^n=\begin{pmatrix}a&0&0\\0&a&0\\0&0&a\end{pmatrix}$$ 
 
+> Achtung, steht nicht in der Theorie, bei Fragen an Mikail (er ist ein absoluter Experte in Matrixen, vor allem wenn es um Populationen und Diagonal-Matrixen geht, kann ihm niemand das Wasser reichen) wenden.
+> Soll nun ein Parameter $v$ der Populationsmatrix $M$ so verändert werden, dass nach $m$ Jahren die Population um $b$ grösser wird, wobei die Matrix eine Periode von $t$ hat (nach $t$ Jahren eine Diagonal-Matrix entsteht), gilt ($v_1$ ist der Wert von $v$, wenn die Population nach einer Periode gleich gross bleiben soll, eine Diagonal-Matrix mit 1):
+> $$\begin{align}
+	v&=v_1\cdot\sqrt[n/t]{a}\\
+	v_1&=\frac{v}{\sqrt[n/t]{a}}\\
+	v_{\textrm{neu}}&=v_1\cdot\sqrt[m/t]{b}\\
+	v_{\textrm{neu}}&=\frac{v}{\sqrt[n/t]a}\cdot\sqrt[m/t]{b}
+\end{align}$$
+> 
+> Alternativ einfach $M^m=\begin{pmatrix}b&0&0\\0&b&0\\0&0&b\end{pmatrix}$ mit $v$ als Unbekannte in Mathematica eintippen.
+
 ## Stochastische Matrizen
 
 Stochastische Matrizen sind Matrizen, bei denen jede Spalte die Summe 1 aufweist.
