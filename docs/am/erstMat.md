@@ -25,7 +25,7 @@ Es gilt:
 $$\begin{align}
 	A&=\begin{pmatrix}a&b\\c&d\end{pmatrix}\\
 	A^{-1}&=\frac{1}{\Delta}\begin{pmatrix}d&-b\\-c&a\end{pmatrix}\\
-	A\cdot A'&=A'\cdot A
+	A\cdot A^{-1}&=A^{-1}\cdot A
 \end{align}$$
 
 ### Diagonal Matrix
