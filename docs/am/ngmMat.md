@@ -18,9 +18,16 @@ Damit eine Population nach $n$ Jahren $a$ mal Grösser wird, gilt:
 
 $$M^n=\begin{pmatrix}a&0&0\\0&a&0\\0&0&a\end{pmatrix}$$ 
 
+Wir haben uns aber nur Matrizen folgender Form (Populationsmatrizen) angeschaut:
+
+$$M=\begin{pmatrix}0&0&0&v\\a&0&0&0\\0&b&0&0\\0&0&c&0\end{pmatrix}$$
+
+$n\times n$-Matrizen dieser Form haben einen Zyklus von $n$ Jahren.
+
 > Achtung, steht nicht in der Theorie, bei Fragen an Mikail (er ist ein absoluter Experte in Matrixen, vor allem wenn es um Populationen und Diagonal-Matrixen geht, kann ihm niemand das Wasser reichen) wenden.
-> Soll nun ein Parameter $v$ der Populationsmatrix $M$ so verändert werden, dass nach $m$ Jahren die Population um $b$ grösser wird, wobei die Matrix eine Periode von $t$ hat (nach $t$ Jahren eine Diagonal-Matrix entsteht), gilt ($v_1$ ist der Wert von $v$, wenn die Population nach einer Periode gleich gross bleiben soll, eine Diagonal-Matrix mit 1):
-> $$\begin{align}
+> Soll nun ein Parameter $v$ der Populationsmatrix $M$ so verändert werden, dass nach $m$ Jahren die Population um $b$ grösser wird, wobei die Matrix eine Periode von $t$ hat (nach $t$ Jahren eine Diagonal-Matrix entsteht) bzw. eine Grösse von $t\times t$, gilt ($v_1$ ist der Wert von $v$, wenn die Population nach einer Periode gleich gross bleiben soll, eine Diagonal-Matrix mit 1):
+>
+$$\begin{align}
 	v&=v_1\cdot\sqrt[n/t]{a}\\
 	v_1&=\frac{v}{\sqrt[n/t]{a}}\\
 	v_{\textrm{neu}}&=v_1\cdot\sqrt[m/t]{b}\\
