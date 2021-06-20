@@ -33,7 +33,7 @@ $$\Delta_{\alpha^{-1}}=\frac{1}{\Delta_{\alpha}}$$
 
 ### Umkehrabbildung
 
-Durch Umtauschen von $x$ und $y$ mit $x'$ und $y'$ und Lösen nach $x'$ und $y'$ oder mit der allgemeinen F
+Durch Umtauschen von $x$ und $y$ mit $x'$ und $y'$ und Lösen nach $x'$ und $y'$ oder mit der allgemeinen Fkt.:
 
 $$\begin{align}
 	x'&=\frac{1}{\Delta}(d\cdot x - b\cdot y +bf-de)\\
