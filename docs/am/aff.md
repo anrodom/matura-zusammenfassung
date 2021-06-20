@@ -21,8 +21,6 @@ $$\begin{align}
 	&\;&&y'=y+f
 \end{align}$$
 
-auch hier muss $\Delta\not=0$ gelten.
-
 ### Determinanten
 
 Die Folgen der Determinante sind die gleichen wie bei linearen Abbildungen, weil sie nur für die Vektorabbildung verwendet werden. Für Verkettungen $\alpha\circ\beta$ gilt auch:
@@ -41,6 +39,8 @@ $$\begin{align}
 	x'&=\frac{1}{\Delta}(d\cdot x - b\cdot y +bf-de)\\
 	y'&=\frac{1}{\Delta}(-c\cdot x + a\cdot y+ce-af)
 \end{align}$$
+
+Auch hier muss $\Delta\not=0$ gelten.
 
 ### Perspektivität
 
