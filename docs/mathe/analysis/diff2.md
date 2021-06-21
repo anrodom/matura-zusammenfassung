@@ -49,7 +49,7 @@ $$\begin{align}
   y&=x^{k+1}\;\Rightarrow\;y'=(k+1)x^{k}\\
   y&=x^{k+1}\\
   &=x^k\cdot x\\
-  &=k\cdot x^{k-1}\cdot x +x^k\\
+  y'&=k\cdot x^{k-1}\cdot x +x^k\\
   &=(k+1)x^k
 \end{align}$$
 
