@@ -51,7 +51,7 @@ $y=\cos(x)$:
 
 $$\begin{align}
   y'&=\lim_{\Delta x\to 0}\frac{\cos(x+\Delta x)-\cos(x)}{\Delta x}\\
-  &=\lim_{\Delta x\to 0}\frac{\cos(x)\cos(\Delta x)+\sin(x)\sin(\Delta x)-\cos(x)}{\Delta x}\\
+  &=\lim_{\Delta x\to 0}\frac{\cos(x)\cos(\Delta x)-\sin(x)\sin(\Delta x)-\cos(x)}{\Delta x}\\
   &=\lim_{\Delta x\to 0}-\frac{\sin(x)\sin(\Delta x)}{\Delta x}+\frac{\cos(x)(\cos(\Delta x)-1)}{\Delta x}\\
   &=-\sin(x)
 \end{align}$$
